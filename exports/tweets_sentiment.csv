@@ -1,0 +1,501 @@
+id,platform_id,text,platform,created_at,location,label,polarity,confidence,model_used
+1,seed_youtube_0_1773744165,kubernetes support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-17 10:42:45.505348+00,"New York, US",positive,0.5081,0.7517,bert
+2,seed_twitter_1_1774940188,The aws platform keeps crashing. Switching to a competitor ASAP.,twitter,2026-03-31 06:56:28.806118+00,"San Francisco, US",negative,-0.6112,0.8411,ensemble
+3,seed_twitter_2_1773606230,Huge shoutout to the aws team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-15 20:23:50.199833+00,"New York, US",positive,0.3052,0.9717,ensemble
+4,seed_twitter_3_1773616058,The value conference keynote starts in 2 hours. Curious what they'll announce.,twitter,2026-03-15 23:07:38.714921+00,"Singapore, SG",neutral,-0.0422,0.732,bert
+5,seed_twitter_4_1774520296,The server platform keeps crashing. Switching to a competitor ASAP.,twitter,2026-03-26 10:18:16.672042+00,"Toronto, CA",negative,-0.5235,0.8043,bert
+6,seed_twitter_5_1773934834,This bug outage has cost us thousands. Where is the status page??,twitter,2026-03-19 15:40:34.57862+00,"New York, US",negative,-0.4242,0.8342,ensemble
+7,seed_twitter_6_1774557924,broken support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-03-26 20:45:24.261317+00,"San Francisco, US",positive,0.9112,0.7439,ensemble
+8,seed_youtube_7_1774675400,This value outage has cost us thousands. Where is the status page??,youtube,2026-03-28 05:23:20.538992+00,"Toronto, CA",negative,-0.7627,0.7348,textblob
+9,seed_youtube_8_1775712401,Finally a aws solution that actually works – saving me hours every day 🎉,youtube,2026-04-09 05:26:41.892176+00,,positive,0.6701,0.9274,ensemble
+10,seed_youtube_9_1774821213,Reviewing the fix changelog for the latest release.,youtube,2026-03-29 21:53:33.977912+00,"Bangalore, IN",neutral,-0.1072,0.8226,bert
+11,seed_twitter_10_1775847185,Super happy with our decision to move to deploy. Zero regrets.,twitter,2026-04-10 18:53:05.782747+00,"London, UK",positive,0.6769,0.8822,ensemble
+12,seed_youtube_11_1774773115,The subscription demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-29 08:31:55.459232+00,"London, UK",positive,0.6447,0.9532,ensemble
+13,seed_youtube_12_1774735062,Been waiting 3 days for cloud support to reply. Absolutely terrible service 😡,youtube,2026-03-28 21:57:42.765951+00,,negative,-0.3357,0.7293,bert
+14,seed_youtube_13_1774293837,help charged me twice this month and I can't reach anyone. Do better.,youtube,2026-03-23 19:23:57.679036+00,"Tokyo, JP",negative,-0.6575,0.7037,ensemble
+15,seed_youtube_14_1773494058,Been waiting 3 days for breach support to reply. Absolutely terrible service 😡,youtube,2026-03-14 13:14:18.145106+00,,negative,-0.3689,0.9141,bert
+16,seed_youtube_15_1775338847,Submitted 5 kubernetes tickets this week. Not a single response.,youtube,2026-04-04 21:40:47.168419+00,"Toronto, CA",negative,-0.7738,0.773,textblob
+17,seed_twitter_16_1773617510,subscription charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-15 23:31:50.395317+00,"Amsterdam, NL",negative,-0.4326,0.8824,textblob
+18,seed_youtube_17_1775942367,The new cost platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-04-11 21:19:27.816506+00,"Toronto, CA",positive,0.3391,0.9141,bert
+19,seed_youtube_18_1775502368,Cancelled my plan subscription. The quality has dropped so much.,youtube,2026-04-06 19:06:08.312924+00,"Mumbai, IN",negative,-0.4656,0.7031,bert
+20,seed_youtube_19_1775206654,Our team's productivity shot up 40% after adopting broken. Game changer! 💡,youtube,2026-04-03 08:57:34.919634+00,"Sydney, AU",positive,0.5876,0.8675,ensemble
+21,seed_youtube_20_1774084237,The vulnerability UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-03-21 09:10:37.506594+00,"Singapore, SG",negative,-0.3159,0.789,ensemble
+22,seed_twitter_21_1775956182,The breach UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-04-12 01:09:42.839527+00,"New York, US",negative,-0.3934,0.9695,textblob
+23,seed_twitter_22_1773996779,The aws demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-20 08:52:59.668353+00,"San Francisco, US",positive,0.5629,0.9307,bert
+24,seed_twitter_23_1775387686,Been waiting 3 days for model support to reply. Absolutely terrible service 😡,twitter,2026-04-05 11:14:46.577086+00,"Berlin, DE",negative,-0.6619,0.9307,bert
+25,seed_twitter_24_1773836298,This subscription outage has cost us thousands. Where is the status page??,twitter,2026-03-18 12:18:18.408359+00,"San Francisco, US",negative,-0.8819,0.923,ensemble
+26,seed_twitter_25_1773422217,Just tried cost and wow – completely changed my workflow. Would highly recommend!,twitter,2026-03-13 17:16:57.558298+00,"Toronto, CA",positive,0.3862,0.7493,ensemble
+27,seed_twitter_26_1773978163,gpt charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-20 03:42:43.640608+00,"Bangalore, IN",negative,-0.5463,0.8538,ensemble
+28,seed_twitter_27_1775304856,Cancelled my model subscription. The quality has dropped so much.,twitter,2026-04-04 12:14:16.282313+00,,negative,-0.9438,0.9509,ensemble
+29,seed_twitter_28_1775066158,"value has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-04-01 17:55:58.197132+00,"Berlin, DE",negative,-0.2789,0.9076,textblob
+30,seed_twitter_29_1773946137,help charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-19 18:48:57.416895+00,,negative,-0.6092,0.7279,textblob
+31,seed_youtube_30_1774130844,The price UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-03-21 22:07:24.504271+00,"Amsterdam, NL",negative,-0.7471,0.8869,bert
+32,seed_youtube_31_1775441421,Cancelled my cheap subscription. The quality has dropped so much.,youtube,2026-04-06 02:10:21.042612+00,"Berlin, DE",negative,-0.8563,0.9291,bert
+33,seed_youtube_32_1773993577,Super happy with our decision to move to cloud. Zero regrets.,youtube,2026-03-20 07:59:37.606276+00,"Paris, FR",positive,0.749,0.8438,bert
+34,seed_twitter_33_1775659328,Just tried support and wow – completely changed my workflow. Would highly recommend!,twitter,2026-04-08 14:42:08.430059+00,"Sydney, AU",positive,0.8025,0.8847,bert
+35,seed_twitter_34_1775078963,Our team had a plan eval call today. Still deciding.,twitter,2026-04-01 21:29:23.278191+00,"Mumbai, IN",neutral,0.0866,0.7972,textblob
+36,seed_twitter_35_1775178222,Setting up a cloud demo environment. First impressions later.,twitter,2026-04-03 01:03:42.832327+00,"Toronto, CA",neutral,0.0215,0.6411,textblob
+37,seed_twitter_36_1775852794,Why is plan so expensive now?! The new pricing is outrageous.,twitter,2026-04-10 20:26:34.143844+00,"Toronto, CA",negative,-0.2638,0.9334,bert
+38,seed_youtube_37_1775218860,Just installed the new help version. Will test it over the next few days.,youtube,2026-04-03 12:21:00.841724+00,"Amsterdam, NL",neutral,-0.0007,0.7608,ensemble
+39,seed_twitter_38_1775313876,"Seriously impressed with ml. The UX is clean, fast, and just works.",twitter,2026-04-04 14:44:36.544404+00,"San Francisco, US",positive,0.8234,0.8342,textblob
+40,seed_youtube_39_1773603203,The new support platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-15 19:33:23.886543+00,"Tokyo, JP",positive,0.5472,0.7642,ensemble
+41,seed_twitter_40_1775800722,Why is encrypt so expensive now?! The new pricing is outrageous.,twitter,2026-04-10 05:58:42.968243+00,"Berlin, DE",negative,-0.4679,0.9638,bert
+42,seed_youtube_41_1775578624,The threat demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-07 16:17:04.675865+00,"Mumbai, IN",positive,0.8724,0.7796,bert
+43,seed_youtube_42_1773881673,Super happy with our decision to move to aws. Zero regrets.,youtube,2026-03-19 00:54:33.753341+00,,positive,0.2897,0.8347,bert
+44,seed_twitter_43_1774774001,Blown away by how fast and reliable the new encrypt update is. 10/10!,twitter,2026-03-29 08:46:41.529112+00,"London, UK",positive,0.6912,0.8879,ensemble
+45,seed_youtube_44_1773464288,Blown away by how fast and reliable the new subscription update is. 10/10!,youtube,2026-03-14 04:58:08.836759+00,"Bangalore, IN",positive,0.5263,0.9599,ensemble
+46,seed_youtube_45_1775645308,The azure demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-08 10:48:28.556509+00,,positive,0.3274,0.8024,textblob
+47,seed_youtube_46_1775255098,Been waiting 3 days for plan support to reply. Absolutely terrible service 😡,youtube,2026-04-03 22:24:58.832984+00,"New York, US",negative,-0.8183,0.7568,bert
+48,seed_youtube_47_1775951999,Our team's productivity shot up 40% after adopting azure. Game changer! 💡,youtube,2026-04-11 23:59:59.895869+00,,positive,0.9039,0.8365,bert
+49,seed_youtube_48_1775034983,New aws blog post is out. Covers migration steps.,youtube,2026-04-01 09:16:23.006692+00,,neutral,0.0276,0.6783,bert
+50,seed_twitter_49_1774603146,The vulnerability demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-27 09:19:06.27626+00,"Amsterdam, NL",positive,0.3318,0.9487,textblob
+51,seed_twitter_50_1775117071,Huge shoutout to the support team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-02 08:04:31.146719+00,"Toronto, CA",positive,0.5014,0.7351,textblob
+52,seed_youtube_51_1773509132,Reading the threat docs. Seems fairly comprehensive so far.,youtube,2026-03-14 17:25:32.46518+00,"Paris, FR",neutral,-0.003,0.755,bert
+53,seed_twitter_52_1773627489,The new value platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-16 02:18:09.700146+00,"Sydney, AU",positive,0.3245,0.8786,ensemble
+54,seed_youtube_53_1775931316,Huge shoutout to the threat team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-04-11 18:15:16.696815+00,"Bangalore, IN",positive,0.3751,0.7661,textblob
+55,seed_twitter_54_1773709143,The firewall demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-17 00:59:03.008783+00,,positive,0.4402,0.9189,textblob
+56,seed_twitter_55_1773956039,Huge shoutout to the cost team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-19 21:33:59.346793+00,"Bangalore, IN",positive,0.5652,0.7462,bert
+57,seed_twitter_56_1775016518,Reviewing the model changelog for the latest release.,twitter,2026-04-01 04:08:38.389578+00,"Paris, FR",neutral,0.1325,0.83,ensemble
+58,seed_youtube_57_1773953895,Attended the deploy webinar. Informative overview of the roadmap.,youtube,2026-03-19 20:58:15.71312+00,"Paris, FR",neutral,-0.0565,0.6041,ensemble
+59,seed_twitter_58_1775706817,aws support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-04-09 03:53:37.702681+00,"Amsterdam, NL",positive,0.8725,0.9543,textblob
+60,seed_twitter_59_1774770909,Cancelled my cloud subscription. The quality has dropped so much.,twitter,2026-03-29 07:55:09.275242+00,,negative,-0.8367,0.7949,bert
+61,seed_youtube_60_1775174981,The breach demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-03 00:09:41.305866+00,"Singapore, SG",positive,0.5795,0.9796,textblob
+62,seed_twitter_61_1775278066,Attended the expensive webinar. Informative overview of the roadmap.,twitter,2026-04-04 04:47:46.128845+00,"New York, US",neutral,-0.0372,0.5689,textblob
+63,seed_youtube_62_1774856170,The new azure platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-30 07:36:10.33369+00,"Singapore, SG",positive,0.6893,0.735,textblob
+64,seed_youtube_63_1775663330,"encrypt has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-04-08 15:48:50.084556+00,,negative,-0.7972,0.829,textblob
+65,seed_youtube_64_1775806976,data charged me twice this month and I can't reach anyone. Do better.,youtube,2026-04-10 07:42:56.005207+00,"San Francisco, US",negative,-0.2913,0.8349,ensemble
+66,seed_twitter_65_1773941082,bug charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-19 17:24:42.576367+00,"New York, US",negative,-0.3561,0.9791,textblob
+67,seed_youtube_66_1773395660,Reviewing the kubernetes changelog for the latest release.,youtube,2026-03-13 09:54:20.198186+00,"Berlin, DE",neutral,0.0967,0.6061,textblob
+68,seed_twitter_67_1774036951,Attended the subscription webinar. Informative overview of the roadmap.,twitter,2026-03-20 20:02:31.303828+00,"Singapore, SG",neutral,-0.1251,0.8392,ensemble
+69,seed_youtube_68_1775557402,Super happy with our decision to move to model. Zero regrets.,youtube,2026-04-07 10:23:22.626948+00,"Tokyo, JP",positive,0.7999,0.7656,bert
+70,seed_youtube_69_1774207596,"bug has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-22 19:26:36.023835+00,"Bangalore, IN",negative,-0.548,0.9509,ensemble
+71,seed_youtube_70_1775961892,The price demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-12 02:44:52.502925+00,"Tokyo, JP",positive,0.3942,0.7957,bert
+72,seed_youtube_71_1775279287,Huge shoutout to the plan team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-04-04 05:08:07.205966+00,"Berlin, DE",positive,0.2705,0.9699,bert
+73,seed_twitter_72_1775497824,New fix blog post is out. Covers migration steps.,twitter,2026-04-06 17:50:24.806143+00,,neutral,-0.1172,0.711,textblob
+74,seed_twitter_73_1775359887,The plan demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-04-05 03:31:27.597171+00,,positive,0.4689,0.7409,bert
+75,seed_youtube_74_1774190465,"refund has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-22 14:41:05.832193+00,"Amsterdam, NL",negative,-0.8672,0.8293,textblob
+76,seed_twitter_75_1775610448,Finally a server solution that actually works – saving me hours every day 🎉,twitter,2026-04-08 01:07:28.691907+00,"London, UK",positive,0.4453,0.7709,bert
+77,seed_twitter_76_1773519493,"Seriously impressed with model. The UX is clean, fast, and just works.",twitter,2026-03-14 20:18:13.740727+00,"London, UK",positive,0.2541,0.9163,bert
+78,seed_twitter_77_1775120014,Submitted 5 ticket tickets this week. Not a single response.,twitter,2026-04-02 08:53:34.543919+00,"Sydney, AU",negative,-0.8378,0.955,textblob
+79,seed_youtube_78_1774653632,The security demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-27 23:20:32.147793+00,"San Francisco, US",positive,0.4377,0.9804,bert
+80,seed_twitter_79_1775003879,Cancelled my firewall subscription. The quality has dropped so much.,twitter,2026-04-01 00:37:59.324787+00,"Toronto, CA",negative,-0.4266,0.9733,bert
+81,seed_youtube_80_1774318718,Finally a cloud solution that actually works – saving me hours every day 🎉,youtube,2026-03-24 02:18:38.385637+00,"Toronto, CA",positive,0.5106,0.8362,bert
+82,seed_twitter_81_1774450394,Our team had a expensive eval call today. Still deciding.,twitter,2026-03-25 14:53:14.508972+00,"Sydney, AU",neutral,0.0155,0.5701,bert
+83,seed_youtube_82_1775693781,Just tried neural and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-09 00:16:21.981162+00,"Bangalore, IN",positive,0.6403,0.7564,bert
+84,seed_youtube_83_1775126894,The firewall conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-04-02 10:48:14.666417+00,"San Francisco, US",neutral,0.1488,0.5832,ensemble
+85,seed_twitter_84_1773437944,Reviewing the fix changelog for the latest release.,twitter,2026-03-13 21:39:04.954891+00,"Paris, FR",neutral,0.1345,0.6283,ensemble
+86,seed_youtube_85_1775771388,Been waiting 3 days for hack support to reply. Absolutely terrible service 😡,youtube,2026-04-09 21:49:48.751798+00,"Toronto, CA",negative,-0.3685,0.7684,bert
+87,seed_youtube_86_1773524372,Finally a ml solution that actually works – saving me hours every day 🎉,youtube,2026-03-14 21:39:32.180682+00,"Singapore, SG",positive,0.321,0.9163,bert
+88,seed_twitter_87_1773895776,Our team's productivity shot up 40% after adopting aws. Game changer! 💡,twitter,2026-03-19 04:49:36.911545+00,"New York, US",positive,0.8873,0.826,textblob
+89,seed_twitter_88_1775307846,New fix blog post is out. Covers migration steps.,twitter,2026-04-04 13:04:06.725574+00,"Mumbai, IN",neutral,0.1384,0.6953,textblob
+90,seed_youtube_89_1775651162,Just tried security and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-08 12:26:02.902201+00,"Mumbai, IN",positive,0.6298,0.8845,bert
+91,seed_youtube_90_1774047227,The new refund platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-20 22:53:47.076756+00,"Paris, FR",positive,0.5651,0.897,textblob
+92,seed_youtube_91_1774943313,New aws blog post is out. Covers migration steps.,youtube,2026-03-31 07:48:33.58921+00,"New York, US",neutral,-0.0218,0.6309,textblob
+93,seed_youtube_92_1774740303,Super happy with our decision to move to azure. Zero regrets.,youtube,2026-03-28 23:25:03.796729+00,"Mumbai, IN",positive,0.3171,0.9282,ensemble
+94,seed_twitter_93_1775302315,cheap charged me twice this month and I can't reach anyone. Do better.,twitter,2026-04-04 11:31:55.492471+00,,negative,-0.8073,0.9121,bert
+95,seed_youtube_94_1773549195,Just installed the new llm version. Will test it over the next few days.,youtube,2026-03-15 04:33:15.236639+00,"London, UK",neutral,-0.0806,0.5753,bert
+96,seed_youtube_95_1773473364,Comparing cloud vs alternatives. Both seem to have trade-offs.,youtube,2026-03-14 07:29:24.239118+00,"Mumbai, IN",neutral,0.0877,0.6591,bert
+97,seed_twitter_96_1775190345,Setting up a price demo environment. First impressions later.,twitter,2026-04-03 04:25:45.119093+00,"Tokyo, JP",neutral,0.0564,0.625,textblob
+98,seed_youtube_97_1775914665,Submitted 5 deploy tickets this week. Not a single response.,youtube,2026-04-11 13:37:45.713123+00,"Mumbai, IN",negative,-0.3716,0.7414,textblob
+99,seed_youtube_98_1774881391,Comparing bug vs alternatives. Both seem to have trade-offs.,youtube,2026-03-30 14:36:31.664841+00,"Berlin, DE",neutral,-0.136,0.7505,ensemble
+100,seed_twitter_99_1775487957,This security outage has cost us thousands. Where is the status page??,twitter,2026-04-06 15:05:57.285015+00,"Berlin, DE",negative,-0.462,0.7754,bert
+101,seed_twitter_100_1774240945,Reviewing the cost changelog for the latest release.,twitter,2026-03-23 04:42:25.412408+00,"New York, US",neutral,0.1373,0.6441,textblob
+102,seed_youtube_101_1775043081,Why is kubernetes so expensive now?! The new pricing is outrageous.,youtube,2026-04-01 11:31:21.317684+00,"San Francisco, US",negative,-0.5642,0.8758,bert
+103,seed_youtube_102_1774557038,The new plan platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-26 20:30:38.63537+00,,positive,0.5917,0.7662,textblob
+104,seed_youtube_103_1774705208,"Seriously impressed with llm. The UX is clean, fast, and just works.",youtube,2026-03-28 13:40:08.63631+00,"Amsterdam, NL",positive,0.4572,0.9051,ensemble
+105,seed_youtube_104_1774686314,Our team had a docker eval call today. Still deciding.,youtube,2026-03-28 08:25:14.288274+00,"Berlin, DE",neutral,0.0649,0.7878,bert
+106,seed_youtube_105_1775521800,Reading the server docs. Seems fairly comprehensive so far.,youtube,2026-04-07 00:30:00.843361+00,"London, UK",neutral,-0.1275,0.5711,textblob
+107,seed_twitter_106_1774622948,Submitted 5 threat tickets this week. Not a single response.,twitter,2026-03-27 14:49:08.826003+00,"Bangalore, IN",negative,-0.7468,0.8146,bert
+108,seed_twitter_107_1773776534,The new gpt platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-17 19:42:14.749629+00,"Mumbai, IN",positive,0.5442,0.811,textblob
+109,seed_youtube_108_1775512316,Huge shoutout to the encrypt team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-04-06 21:51:56.127252+00,,positive,0.7196,0.9588,textblob
+110,seed_youtube_109_1774695920,The neural demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-28 11:05:20.785809+00,"Toronto, CA",positive,0.633,0.7549,bert
+111,seed_youtube_110_1775096122,expensive charged me twice this month and I can't reach anyone. Do better.,youtube,2026-04-02 02:15:22.9457+00,"Singapore, SG",negative,-0.3435,0.9184,bert
+112,seed_twitter_111_1775362176,Just tried support and wow – completely changed my workflow. Would highly recommend!,twitter,2026-04-05 04:09:36.852437+00,"Berlin, DE",positive,0.6067,0.845,bert
+113,seed_twitter_112_1775670726,Anyone here using subscription for production workloads? Looking for feedback.,twitter,2026-04-08 17:52:06.161374+00,"Singapore, SG",neutral,0.1287,0.8185,textblob
+114,seed_twitter_113_1775979882,Blown away by how fast and reliable the new breach update is. 10/10!,twitter,2026-04-12 07:44:42.032847+00,"Berlin, DE",positive,0.5419,0.7395,bert
+115,seed_youtube_114_1775977500,The hack platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-04-12 07:05:00.909756+00,"London, UK",negative,-0.8646,0.9845,bert
+116,seed_twitter_115_1775430454,Finally a deploy solution that actually works – saving me hours every day 🎉,twitter,2026-04-05 23:07:34.471965+00,"Mumbai, IN",positive,0.8844,0.9292,ensemble
+117,seed_youtube_116_1775408524,"Seriously impressed with docker. The UX is clean, fast, and just works.",youtube,2026-04-05 17:02:04.682913+00,"Amsterdam, NL",positive,0.3458,0.8997,textblob
+118,seed_youtube_117_1775382692,Blown away by how fast and reliable the new cloud update is. 10/10!,youtube,2026-04-05 09:51:32.674509+00,"Paris, FR",positive,0.7992,0.9701,bert
+119,seed_youtube_118_1774871711,Blown away by how fast and reliable the new ai update is. 10/10!,youtube,2026-03-30 11:55:11.552822+00,"Bangalore, IN",positive,0.3729,0.8444,ensemble
+120,seed_twitter_119_1775345956,Just installed the new neural version. Will test it over the next few days.,twitter,2026-04-04 23:39:16.437565+00,"New York, US",neutral,0.1078,0.7121,textblob
+121,seed_youtube_120_1774786436,The encrypt demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-29 12:13:56.006752+00,"Berlin, DE",positive,0.5189,0.8795,bert
+122,seed_youtube_121_1774592802,Our team's productivity shot up 40% after adopting support. Game changer! 💡,youtube,2026-03-27 06:26:42.038807+00,,positive,0.5972,0.725,ensemble
+123,seed_twitter_122_1774699559,Been waiting 3 days for cloud support to reply. Absolutely terrible service 😡,twitter,2026-03-28 12:05:59.863871+00,"Toronto, CA",negative,-0.7324,0.7818,bert
+124,seed_youtube_123_1774725500,Comparing kubernetes vs alternatives. Both seem to have trade-offs.,youtube,2026-03-28 19:18:20.7297+00,"Singapore, SG",neutral,0.1467,0.5562,ensemble
+125,seed_youtube_124_1774881998,The hack UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-03-30 14:46:38.524411+00,"Paris, FR",negative,-0.3477,0.9083,bert
+126,seed_twitter_125_1773952079,"broken has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-03-19 20:27:59.999522+00,"Bangalore, IN",negative,-0.7185,0.7385,ensemble
+127,seed_youtube_126_1774986757,Reading the subscription docs. Seems fairly comprehensive so far.,youtube,2026-03-31 19:52:37.724744+00,"Toronto, CA",neutral,-0.0375,0.622,ensemble
+128,seed_twitter_127_1774615843,value charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-27 12:50:43.479581+00,"Toronto, CA",negative,-0.8519,0.8448,textblob
+129,seed_twitter_128_1774261543,Our team had a threat eval call today. Still deciding.,twitter,2026-03-23 10:25:43.456553+00,"Tokyo, JP",neutral,-0.0724,0.6581,ensemble
+130,seed_youtube_129_1774144374,The new deep learning platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-22 01:52:54.86038+00,"Toronto, CA",positive,0.3042,0.8006,ensemble
+131,seed_twitter_130_1774047627,The broken demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-20 23:00:27.486618+00,,positive,0.7612,0.8134,bert
+132,seed_twitter_131_1775621266,Submitted 5 broken tickets this week. Not a single response.,twitter,2026-04-08 04:07:46.34448+00,"New York, US",negative,-0.3801,0.7048,ensemble
+133,seed_twitter_132_1775600971,"Seriously impressed with vulnerability. The UX is clean, fast, and just works.",twitter,2026-04-07 22:29:31.66131+00,"New York, US",positive,0.4721,0.7394,bert
+134,seed_youtube_133_1775262656,Our team's productivity shot up 40% after adopting threat. Game changer! 💡,youtube,2026-04-04 00:30:56.44365+00,"Bangalore, IN",positive,0.454,0.8633,bert
+135,seed_twitter_134_1775360396,This threat outage has cost us thousands. Where is the status page??,twitter,2026-04-05 03:39:56.518016+00,"Berlin, DE",negative,-0.364,0.9533,bert
+136,seed_youtube_135_1774288785,Why is docker so expensive now?! The new pricing is outrageous.,youtube,2026-03-23 17:59:45.458102+00,"New York, US",negative,-0.6735,0.9068,bert
+137,seed_youtube_136_1775261632,Comparing expensive vs alternatives. Both seem to have trade-offs.,youtube,2026-04-04 00:13:52.907649+00,"Paris, FR",neutral,0.0872,0.5596,ensemble
+138,seed_youtube_137_1774820821,Been waiting 3 days for ml support to reply. Absolutely terrible service 😡,youtube,2026-03-29 21:47:01.414197+00,"Tokyo, JP",negative,-0.7352,0.797,textblob
+139,seed_youtube_138_1774589572,The ml platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-03-27 05:32:52.790107+00,,negative,-0.7375,0.8274,ensemble
+140,seed_twitter_139_1774934853,This kubernetes outage has cost us thousands. Where is the status page??,twitter,2026-03-31 05:27:33.78093+00,,negative,-0.7748,0.7876,textblob
+141,seed_twitter_140_1773866850,The plan demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-18 20:47:30.230082+00,"Mumbai, IN",positive,0.4938,0.9174,bert
+142,seed_twitter_141_1774311308,Reviewing the issue changelog for the latest release.,twitter,2026-03-24 00:15:08.996088+00,"Amsterdam, NL",neutral,-0.0669,0.7189,ensemble
+143,seed_twitter_142_1773811798,Our team's productivity shot up 40% after adopting firewall. Game changer! 💡,twitter,2026-03-18 05:29:58.698197+00,"London, UK",positive,0.3725,0.9602,textblob
+144,seed_youtube_143_1774838859,"cost has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-30 02:47:39.610883+00,"London, UK",negative,-0.8051,0.9498,ensemble
+145,seed_youtube_144_1775753011,Been waiting 3 days for help support to reply. Absolutely terrible service 😡,youtube,2026-04-09 16:43:31.514253+00,"Tokyo, JP",negative,-0.7605,0.9807,textblob
+146,seed_twitter_145_1775459018,support support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-04-06 07:03:38.55684+00,"Bangalore, IN",positive,0.4953,0.9432,textblob
+147,seed_youtube_146_1774025823,Finally a server solution that actually works – saving me hours every day 🎉,youtube,2026-03-20 16:57:03.501684+00,"Bangalore, IN",positive,0.9242,0.8584,textblob
+148,seed_youtube_147_1773812847,Submitted 5 hack tickets this week. Not a single response.,youtube,2026-03-18 05:47:27.986403+00,,negative,-0.8894,0.7969,ensemble
+149,seed_youtube_148_1774048554,The latest gpt update broke my entire pipeline. Unacceptable!,youtube,2026-03-20 23:15:54.762604+00,"Tokyo, JP",negative,-0.8152,0.7544,textblob
+150,seed_youtube_149_1774356411,Finally a bug solution that actually works – saving me hours every day 🎉,youtube,2026-03-24 12:46:51.636111+00,"Amsterdam, NL",positive,0.7887,0.7322,ensemble
+151,seed_youtube_150_1775425091,Reviewing the deploy changelog for the latest release.,youtube,2026-04-05 21:38:11.443852+00,"Toronto, CA",neutral,-0.0535,0.5733,textblob
+152,seed_youtube_151_1775502017,Why is data so expensive now?! The new pricing is outrageous.,youtube,2026-04-06 19:00:17.945386+00,"San Francisco, US",negative,-0.6876,0.7271,textblob
+153,seed_twitter_152_1774244761,Blown away by how fast and reliable the new threat update is. 10/10!,twitter,2026-03-23 05:46:01.22254+00,"Sydney, AU",positive,0.369,0.7512,ensemble
+154,seed_twitter_153_1774576931,This data outage has cost us thousands. Where is the status page??,twitter,2026-03-27 02:02:11.234368+00,"San Francisco, US",negative,-0.855,0.8528,bert
+155,seed_twitter_154_1774568967,Submitted 5 deep learning tickets this week. Not a single response.,twitter,2026-03-26 23:49:27.463633+00,"Singapore, SG",negative,-0.8558,0.9764,textblob
+156,seed_twitter_155_1775134493,Been waiting 3 days for llm support to reply. Absolutely terrible service 😡,twitter,2026-04-02 12:54:53.252666+00,"Tokyo, JP",negative,-0.6381,0.95,bert
+157,seed_youtube_156_1773672415,Reviewing the ticket changelog for the latest release.,youtube,2026-03-16 14:46:55.885867+00,"Singapore, SG",neutral,-0.0554,0.5894,textblob
+158,seed_twitter_157_1774544616,Huge shoutout to the docker team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-26 17:03:36.064342+00,,positive,0.4516,0.8369,textblob
+159,seed_twitter_158_1775924235,Been waiting 3 days for deploy support to reply. Absolutely terrible service 😡,twitter,2026-04-11 16:17:15.410587+00,"New York, US",negative,-0.3036,0.7171,ensemble
+160,seed_youtube_159_1775091839,Reading the deep learning docs. Seems fairly comprehensive so far.,youtube,2026-04-02 01:03:59.998083+00,,neutral,0.1284,0.6158,ensemble
+161,seed_youtube_160_1775736734,The new model platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-04-09 12:12:14.403298+00,"Sydney, AU",positive,0.2641,0.9688,ensemble
+162,seed_youtube_161_1775462882,"Seriously impressed with server. The UX is clean, fast, and just works.",youtube,2026-04-06 08:08:02.101821+00,"Sydney, AU",positive,0.8088,0.7862,bert
+163,seed_youtube_162_1775305174,Reading the broken docs. Seems fairly comprehensive so far.,youtube,2026-04-04 12:19:34.07573+00,"Singapore, SG",neutral,-0.0181,0.5532,textblob
+164,seed_twitter_163_1774229960,Huge shoutout to the value team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-23 01:39:20.620888+00,"Sydney, AU",positive,0.7463,0.8615,textblob
+165,seed_twitter_164_1774441222,Reviewing the ai changelog for the latest release.,twitter,2026-03-25 12:20:22.848534+00,"Mumbai, IN",neutral,-0.0244,0.7111,textblob
+166,seed_youtube_165_1773904759,Setting up a kubernetes demo environment. First impressions later.,youtube,2026-03-19 07:19:19.608186+00,"San Francisco, US",neutral,0.0212,0.7036,textblob
+167,seed_youtube_166_1775312649,Anyone here using fix for production workloads? Looking for feedback.,youtube,2026-04-04 14:24:09.518368+00,,neutral,0.059,0.7041,bert
+168,seed_youtube_167_1774745551,"kubernetes has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-29 00:52:31.580835+00,"Toronto, CA",negative,-0.7119,0.7354,textblob
+169,seed_twitter_168_1775686144,Been waiting 3 days for cloud support to reply. Absolutely terrible service 😡,twitter,2026-04-08 22:09:04.344763+00,"New York, US",negative,-0.2875,0.8619,bert
+170,seed_youtube_169_1775907980,The vulnerability demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-11 11:46:20.001052+00,"Bangalore, IN",positive,0.7246,0.8303,textblob
+171,seed_youtube_170_1774365210,Setting up a bug demo environment. First impressions later.,youtube,2026-03-24 15:13:30.877711+00,,neutral,0.0803,0.8185,textblob
+172,seed_twitter_171_1775857768,Huge shoutout to the ticket team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-10 21:49:28.939047+00,,positive,0.5381,0.8148,ensemble
+173,seed_twitter_172_1774580648,This vulnerability outage has cost us thousands. Where is the status page??,twitter,2026-03-27 03:04:08.115373+00,"Bangalore, IN",negative,-0.8033,0.9807,ensemble
+174,seed_youtube_173_1774199598,Finally a docker solution that actually works – saving me hours every day 🎉,youtube,2026-03-22 17:13:18.287731+00,"New York, US",positive,0.4898,0.9094,textblob
+175,seed_youtube_174_1775305033,Why is ticket so expensive now?! The new pricing is outrageous.,youtube,2026-04-04 12:17:13.85149+00,,negative,-0.9268,0.7051,bert
+176,seed_twitter_175_1774764383,security support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-03-29 06:06:23.560929+00,"Mumbai, IN",positive,0.6952,0.8915,bert
+177,seed_youtube_176_1774064439,value support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-21 03:40:39.463059+00,"Toronto, CA",positive,0.7871,0.8314,ensemble
+178,seed_twitter_177_1773961799,Huge shoutout to the firewall team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-19 23:09:59.07045+00,,positive,0.5311,0.783,textblob
+179,seed_twitter_178_1775116850,Reviewing the cheap changelog for the latest release.,twitter,2026-04-02 08:00:50.780023+00,"London, UK",neutral,-0.0163,0.6473,textblob
+180,seed_twitter_179_1774569749,The value UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-03-27 00:02:29.256102+00,"San Francisco, US",negative,-0.4354,0.8936,textblob
+181,seed_twitter_180_1775509527,Reviewing the neural changelog for the latest release.,twitter,2026-04-06 21:05:27.213188+00,"Amsterdam, NL",neutral,-0.1323,0.6528,textblob
+182,seed_twitter_181_1775257944,Just tried cloud and wow – completely changed my workflow. Would highly recommend!,twitter,2026-04-03 23:12:24.825482+00,"Sydney, AU",positive,0.2681,0.7562,textblob
+183,seed_youtube_182_1775577865,Finally a aws solution that actually works – saving me hours every day 🎉,youtube,2026-04-07 16:04:25.333651+00,"Tokyo, JP",positive,0.2933,0.8458,ensemble
+184,seed_youtube_183_1774867807,Huge shoutout to the deep learning team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-03-30 10:50:07.215912+00,"Tokyo, JP",positive,0.4304,0.9654,textblob
+185,seed_twitter_184_1775074976,Huge shoutout to the docker team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-01 20:22:56.798268+00,"Bangalore, IN",positive,0.7843,0.7251,ensemble
+186,seed_youtube_185_1774972617,Submitted 5 issue tickets this week. Not a single response.,youtube,2026-03-31 15:56:57.222428+00,,negative,-0.4937,0.9278,ensemble
+187,seed_youtube_186_1775672658,Finally a bug solution that actually works – saving me hours every day 🎉,youtube,2026-04-08 18:24:18.232175+00,"San Francisco, US",positive,0.3254,0.936,textblob
+188,seed_youtube_187_1775316091,kubernetes support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-04-04 15:21:31.655825+00,"Sydney, AU",positive,0.4898,0.8683,ensemble
+189,seed_youtube_188_1774304716,"firewall has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-23 22:25:16.695828+00,,negative,-0.6157,0.9839,textblob
+190,seed_twitter_189_1774165146,Comparing price vs alternatives. Both seem to have trade-offs.,twitter,2026-03-22 07:39:06.425075+00,,neutral,0.0139,0.6118,ensemble
+191,seed_twitter_190_1775216506,Just installed the new aws version. Will test it over the next few days.,twitter,2026-04-03 11:41:46.231004+00,"Amsterdam, NL",neutral,0.0506,0.8174,textblob
+192,seed_twitter_191_1773965417,The expensive demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-20 00:10:17.614793+00,"New York, US",positive,0.6781,0.9659,ensemble
+193,seed_youtube_192_1774799440,Just tried cheap and wow – completely changed my workflow. Would highly recommend!,youtube,2026-03-29 15:50:40.098164+00,"Sydney, AU",positive,0.5297,0.7883,textblob
+194,seed_twitter_193_1773476951,Super happy with our decision to move to aws. Zero regrets.,twitter,2026-03-14 08:29:11.440161+00,"Tokyo, JP",positive,0.5283,0.878,textblob
+195,seed_twitter_194_1775280740,The ticket demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-04-04 05:32:20.277981+00,"Singapore, SG",positive,0.679,0.736,textblob
+196,seed_youtube_195_1773962293,Huge shoutout to the help team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-03-19 23:18:13.64076+00,"Sydney, AU",positive,0.2747,0.7314,textblob
+197,seed_youtube_196_1774677635,The new ticket platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-28 06:00:35.351965+00,,positive,0.7794,0.7607,bert
+198,seed_youtube_197_1775324141,Blown away by how fast and reliable the new llm update is. 10/10!,youtube,2026-04-04 17:35:41.971571+00,,positive,0.3143,0.9623,textblob
+199,seed_twitter_198_1775075864,New cloud blog post is out. Covers migration steps.,twitter,2026-04-01 20:37:44.190963+00,"London, UK",neutral,-0.1311,0.758,bert
+200,seed_youtube_199_1773484206,Setting up a ai demo environment. First impressions later.,youtube,2026-03-14 10:30:06.883937+00,"San Francisco, US",neutral,-0.0652,0.6547,textblob
+201,seed_twitter_200_1775233119,Anyone here using docker for production workloads? Looking for feedback.,twitter,2026-04-03 16:18:39.754463+00,"Berlin, DE",neutral,0.0375,0.626,bert
+202,seed_youtube_201_1773710003,docker support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-17 01:13:23.04083+00,"Singapore, SG",positive,0.5056,0.7435,ensemble
+203,seed_youtube_202_1775649836,Reading the price docs. Seems fairly comprehensive so far.,youtube,2026-04-08 12:03:56.632148+00,"Berlin, DE",neutral,-0.0071,0.799,ensemble
+204,seed_twitter_203_1774553176,The subscription demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-26 19:26:16.457064+00,"Singapore, SG",positive,0.3998,0.9377,ensemble
+205,seed_twitter_204_1774532772,The kubernetes demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-26 13:46:12.811416+00,"San Francisco, US",positive,0.8884,0.7389,ensemble
+206,seed_twitter_205_1775437831,Reading the expensive docs. Seems fairly comprehensive so far.,twitter,2026-04-06 01:10:31.073357+00,"New York, US",neutral,-0.068,0.8335,textblob
+207,seed_youtube_206_1775057591,"Seriously impressed with subscription. The UX is clean, fast, and just works.",youtube,2026-04-01 15:33:11.612847+00,,positive,0.5008,0.9714,bert
+208,seed_youtube_207_1775390226,Blown away by how fast and reliable the new broken update is. 10/10!,youtube,2026-04-05 11:57:06.2048+00,,positive,0.7147,0.8616,bert
+209,seed_twitter_208_1774930495,Submitted 5 ticket tickets this week. Not a single response.,twitter,2026-03-31 04:14:55.72908+00,"Bangalore, IN",negative,-0.4831,0.7595,bert
+210,seed_twitter_209_1775670055,Finally a server solution that actually works – saving me hours every day 🎉,twitter,2026-04-08 17:40:55.48757+00,"Singapore, SG",positive,0.8342,0.8893,textblob
+211,seed_twitter_210_1774856625,Anyone here using data for production workloads? Looking for feedback.,twitter,2026-03-30 07:43:45.142443+00,"London, UK",neutral,-0.0563,0.7371,bert
+212,seed_youtube_211_1775869906,The deploy conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-04-11 01:11:46.340845+00,"Paris, FR",neutral,-0.1227,0.8404,bert
+213,seed_twitter_212_1775848576,Huge shoutout to the ml team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-10 19:16:16.487541+00,"Bangalore, IN",positive,0.4311,0.9803,textblob
+214,seed_twitter_213_1775193849,Blown away by how fast and reliable the new price update is. 10/10!,twitter,2026-04-03 05:24:09.424074+00,"Tokyo, JP",positive,0.5126,0.8487,bert
+215,seed_youtube_214_1774045201,New vulnerability blog post is out. Covers migration steps.,youtube,2026-03-20 22:20:01.104902+00,"Mumbai, IN",neutral,-0.0099,0.7387,textblob
+216,seed_twitter_215_1775822124,Huge shoutout to the encrypt team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-10 11:55:24.84086+00,"Mumbai, IN",positive,0.906,0.9646,ensemble
+217,seed_twitter_216_1774090328,Reviewing the vulnerability changelog for the latest release.,twitter,2026-03-21 10:52:08.708579+00,"New York, US",neutral,0.0179,0.6243,textblob
+218,seed_youtube_217_1774590057,"support has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-27 05:40:57.80055+00,"Toronto, CA",negative,-0.3287,0.9568,textblob
+219,seed_twitter_218_1774598179,Comparing azure vs alternatives. Both seem to have trade-offs.,twitter,2026-03-27 07:56:19.018564+00,"Toronto, CA",neutral,0.0426,0.6068,bert
+220,seed_twitter_219_1774045967,Our team had a vulnerability eval call today. Still deciding.,twitter,2026-03-20 22:32:47.299369+00,,neutral,-0.12,0.7131,ensemble
+221,seed_youtube_220_1775228795,The latest subscription update broke my entire pipeline. Unacceptable!,youtube,2026-04-03 15:06:35.011468+00,"Singapore, SG",negative,-0.6955,0.9579,textblob
+222,seed_twitter_221_1773817214,Super happy with our decision to move to hack. Zero regrets.,twitter,2026-03-18 07:00:14.188044+00,"New York, US",positive,0.3341,0.7426,ensemble
+223,seed_youtube_222_1775622275,Finally a value solution that actually works – saving me hours every day 🎉,youtube,2026-04-08 04:24:35.152335+00,,positive,0.9223,0.977,bert
+224,seed_twitter_223_1774146141,This help outage has cost us thousands. Where is the status page??,twitter,2026-03-22 02:22:21.98798+00,"Singapore, SG",negative,-0.6513,0.776,bert
+225,seed_twitter_224_1775352074,Comparing hack vs alternatives. Both seem to have trade-offs.,twitter,2026-04-05 01:21:14.541121+00,"Toronto, CA",neutral,-0.1472,0.703,ensemble
+226,seed_twitter_225_1773852138,The hack platform keeps crashing. Switching to a competitor ASAP.,twitter,2026-03-18 16:42:18.165615+00,"Mumbai, IN",negative,-0.6368,0.8566,textblob
+227,seed_youtube_226_1775698466,Comparing server vs alternatives. Both seem to have trade-offs.,youtube,2026-04-09 01:34:26.907391+00,"Tokyo, JP",neutral,0.0855,0.5728,ensemble
+228,seed_youtube_227_1773711554,The cheap UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-03-17 01:39:14.758322+00,"Mumbai, IN",negative,-0.461,0.9457,ensemble
+229,seed_twitter_228_1774556572,Our team's productivity shot up 40% after adopting threat. Game changer! 💡,twitter,2026-03-26 20:22:52.076939+00,"Toronto, CA",positive,0.3206,0.949,bert
+230,seed_youtube_229_1774263822,Setting up a fix demo environment. First impressions later.,youtube,2026-03-23 11:03:42.135268+00,"Toronto, CA",neutral,-0.046,0.5641,textblob
+231,seed_twitter_230_1773445660,Finally a support solution that actually works – saving me hours every day 🎉,twitter,2026-03-13 23:47:40.320173+00,"London, UK",positive,0.7744,0.984,bert
+232,seed_twitter_231_1774797118,Been waiting 3 days for firewall support to reply. Absolutely terrible service 😡,twitter,2026-03-29 15:11:58.496139+00,"Tokyo, JP",negative,-0.4114,0.9235,bert
+233,seed_twitter_232_1775388790,Just tried encrypt and wow – completely changed my workflow. Would highly recommend!,twitter,2026-04-05 11:33:10.361384+00,"San Francisco, US",positive,0.2879,0.7261,ensemble
+234,seed_youtube_233_1775663219,Blown away by how fast and reliable the new kubernetes update is. 10/10!,youtube,2026-04-08 15:46:59.859237+00,"Toronto, CA",positive,0.5116,0.8085,ensemble
+235,seed_twitter_234_1775164157,This deep learning outage has cost us thousands. Where is the status page??,twitter,2026-04-02 21:09:17.778033+00,,negative,-0.5377,0.9686,bert
+236,seed_youtube_235_1775743057,Cancelled my cheap subscription. The quality has dropped so much.,youtube,2026-04-09 13:57:37.937563+00,"London, UK",negative,-0.6841,0.8915,ensemble
+237,seed_twitter_236_1774348818,"encrypt has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-03-24 10:40:18.760678+00,"Bangalore, IN",negative,-0.4721,0.7403,textblob
+238,seed_twitter_237_1774774925,Submitted 5 firewall tickets this week. Not a single response.,twitter,2026-03-29 09:02:05.212001+00,"Singapore, SG",negative,-0.5126,0.9003,bert
+239,seed_youtube_238_1773515409,Our team had a aws eval call today. Still deciding.,youtube,2026-03-14 19:10:09.043272+00,"Bangalore, IN",neutral,-0.0064,0.5956,bert
+240,seed_youtube_239_1773532505,Super happy with our decision to move to azure. Zero regrets.,youtube,2026-03-14 23:55:05.081987+00,"Berlin, DE",positive,0.9038,0.7421,textblob
+241,seed_twitter_240_1773702818,"deploy has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-03-16 23:13:38.933401+00,"Mumbai, IN",negative,-0.8452,0.8883,bert
+242,seed_youtube_241_1774475398,Our team had a docker eval call today. Still deciding.,youtube,2026-03-25 21:49:58.716855+00,"Toronto, CA",neutral,-0.0942,0.6129,ensemble
+243,seed_youtube_242_1774700470,The gpt conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-03-28 12:21:10.898617+00,,neutral,0.0327,0.8339,textblob
+244,seed_twitter_243_1774182253,Attended the plan webinar. Informative overview of the roadmap.,twitter,2026-03-22 12:24:13.863526+00,"Tokyo, JP",neutral,0.1358,0.8104,textblob
+245,seed_youtube_244_1775896559,"Seriously impressed with breach. The UX is clean, fast, and just works.",youtube,2026-04-11 08:35:59.57638+00,"Tokyo, JP",positive,0.7847,0.7288,textblob
+246,seed_twitter_245_1775156012,Super happy with our decision to move to cost. Zero regrets.,twitter,2026-04-02 18:53:32.729789+00,"Bangalore, IN",positive,0.4489,0.915,textblob
+247,seed_youtube_246_1774335783,Why is bug so expensive now?! The new pricing is outrageous.,youtube,2026-03-24 07:03:03.999186+00,"Toronto, CA",negative,-0.3222,0.961,textblob
+248,seed_youtube_247_1774928965,The deep learning demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-31 03:49:25.357842+00,"Tokyo, JP",positive,0.4239,0.8793,ensemble
+249,seed_youtube_248_1774037033,Super happy with our decision to move to broken. Zero regrets.,youtube,2026-03-20 20:03:53.26166+00,"Singapore, SG",positive,0.2767,0.8176,ensemble
+250,seed_twitter_249_1773897559,Blown away by how fast and reliable the new broken update is. 10/10!,twitter,2026-03-19 05:19:19.989397+00,"Tokyo, JP",positive,0.6514,0.979,textblob
+251,seed_twitter_250_1774392023,Our team had a cloud eval call today. Still deciding.,twitter,2026-03-24 22:40:23.22117+00,,neutral,0.0793,0.7778,textblob
+252,seed_youtube_251_1773786758,Comparing bug vs alternatives. Both seem to have trade-offs.,youtube,2026-03-17 22:32:38.002716+00,"Tokyo, JP",neutral,-0.072,0.7328,ensemble
+253,seed_youtube_252_1774757300,expensive support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-29 04:08:20.823529+00,"Amsterdam, NL",positive,0.623,0.974,textblob
+254,seed_youtube_253_1773444345,Attended the ai webinar. Informative overview of the roadmap.,youtube,2026-03-13 23:25:45.43895+00,,neutral,0.0398,0.5945,bert
+255,seed_youtube_254_1775808925,Comparing ticket vs alternatives. Both seem to have trade-offs.,youtube,2026-04-10 08:15:25.797738+00,"Bangalore, IN",neutral,-0.0855,0.757,bert
+256,seed_youtube_255_1773401620,The server demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-13 11:33:40.141877+00,"Singapore, SG",positive,0.4353,0.7644,bert
+257,seed_twitter_256_1774271928,Submitted 5 bug tickets this week. Not a single response.,twitter,2026-03-23 13:18:48.315407+00,"Toronto, CA",negative,-0.8218,0.8906,bert
+258,seed_twitter_257_1774070179,Huge shoutout to the refund team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-21 05:16:19.969964+00,,positive,0.3852,0.8528,bert
+259,seed_twitter_258_1775821660,"Seriously impressed with neural. The UX is clean, fast, and just works.",twitter,2026-04-10 11:47:40.88207+00,,positive,0.9072,0.8989,ensemble
+260,seed_twitter_259_1774409172,Reading the deep learning docs. Seems fairly comprehensive so far.,twitter,2026-03-25 03:26:12.518928+00,"Bangalore, IN",neutral,-0.0389,0.5504,textblob
+261,seed_youtube_260_1775356759,The data conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-04-05 02:39:19.483561+00,"Tokyo, JP",neutral,-0.0791,0.696,bert
+262,seed_twitter_261_1774659371,The new breach platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-28 00:56:11.163429+00,"New York, US",positive,0.7747,0.8277,bert
+263,seed_twitter_262_1775228801,Finally a firewall solution that actually works – saving me hours every day 🎉,twitter,2026-04-03 15:06:41.360565+00,"Tokyo, JP",positive,0.3939,0.9184,textblob
+264,seed_twitter_263_1773460447,Huge shoutout to the subscription team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-14 03:54:07.306082+00,"Singapore, SG",positive,0.6273,0.8227,ensemble
+265,seed_twitter_264_1775333624,Reading the breach docs. Seems fairly comprehensive so far.,twitter,2026-04-04 20:13:44.994114+00,"Berlin, DE",neutral,0.0787,0.6533,ensemble
+266,seed_youtube_265_1773606100,The refund demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-15 20:21:40.072339+00,"Singapore, SG",positive,0.8816,0.8781,bert
+267,seed_youtube_266_1774187374,Super happy with our decision to move to refund. Zero regrets.,youtube,2026-03-22 13:49:34.57421+00,"Paris, FR",positive,0.7178,0.9886,bert
+268,seed_twitter_267_1775334156,"threat has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-04-04 20:22:36.721428+00,"Sydney, AU",negative,-0.704,0.8498,bert
+269,seed_twitter_268_1775796862,Why is deep learning so expensive now?! The new pricing is outrageous.,twitter,2026-04-10 04:54:22.4742+00,"Amsterdam, NL",negative,-0.8535,0.8155,ensemble
+270,seed_youtube_269_1775247236,Anyone here using deep learning for production workloads? Looking for feedback.,youtube,2026-04-03 20:13:56.795409+00,"New York, US",neutral,-0.1167,0.5632,bert
+271,seed_twitter_270_1774413725,The azure demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-25 04:42:05.39149+00,"New York, US",positive,0.5308,0.8099,bert
+272,seed_twitter_271_1774819431,Submitted 5 deploy tickets this week. Not a single response.,twitter,2026-03-29 21:23:51.961222+00,"San Francisco, US",negative,-0.808,0.9601,textblob
+273,seed_twitter_272_1775316410,Been waiting 3 days for breach support to reply. Absolutely terrible service 😡,twitter,2026-04-04 15:26:50.656535+00,"San Francisco, US",negative,-0.6943,0.7212,bert
+274,seed_youtube_273_1774798284,Just tried data and wow – completely changed my workflow. Would highly recommend!,youtube,2026-03-29 15:31:24.738289+00,,positive,0.3949,0.9733,textblob
+275,seed_youtube_274_1773879815,The help demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-19 00:23:35.424187+00,"San Francisco, US",positive,0.4928,0.8734,ensemble
+276,seed_youtube_275_1773622020,Submitted 5 firewall tickets this week. Not a single response.,youtube,2026-03-16 00:47:00.938565+00,"London, UK",negative,-0.5041,0.8786,ensemble
+277,seed_twitter_276_1773434635,The ai demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-13 20:43:55.726155+00,"New York, US",positive,0.9152,0.9386,bert
+278,seed_youtube_277_1775688634,The new gpt platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-04-08 22:50:34.492807+00,,positive,0.3009,0.8158,bert
+279,seed_youtube_278_1774849624,Reviewing the expensive changelog for the latest release.,youtube,2026-03-30 05:47:04.896879+00,"Bangalore, IN",neutral,0.1182,0.6827,bert
+280,seed_twitter_279_1774731401,Super happy with our decision to move to model. Zero regrets.,twitter,2026-03-28 20:56:41.729738+00,"Berlin, DE",positive,0.8733,0.8337,textblob
+281,seed_twitter_280_1775358471,Anyone here using deep learning for production workloads? Looking for feedback.,twitter,2026-04-05 03:07:51.165406+00,,neutral,-0.1057,0.7728,ensemble
+282,seed_twitter_281_1773894377,Been waiting 3 days for value support to reply. Absolutely terrible service 😡,twitter,2026-03-19 04:26:17.259652+00,"Amsterdam, NL",negative,-0.6767,0.9713,textblob
+283,seed_twitter_282_1774527484,deep learning charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-26 12:18:04.410149+00,"New York, US",negative,-0.7174,0.8237,ensemble
+284,seed_youtube_283_1774092615,"Seriously impressed with cheap. The UX is clean, fast, and just works.",youtube,2026-03-21 11:30:15.717534+00,"Paris, FR",positive,0.7654,0.7445,textblob
+285,seed_youtube_284_1775964013,Finally a docker solution that actually works – saving me hours every day 🎉,youtube,2026-04-12 03:20:13.656152+00,"Bangalore, IN",positive,0.9235,0.9173,bert
+286,seed_twitter_285_1773705051,Reading the plan docs. Seems fairly comprehensive so far.,twitter,2026-03-16 23:50:51.302682+00,"New York, US",neutral,-0.1136,0.7104,ensemble
+287,seed_youtube_286_1775171483,Why is encrypt so expensive now?! The new pricing is outrageous.,youtube,2026-04-02 23:11:23.318153+00,"New York, US",negative,-0.3116,0.7595,textblob
+288,seed_twitter_287_1775939578,Our team's productivity shot up 40% after adopting cheap. Game changer! 💡,twitter,2026-04-11 20:32:58.703279+00,"Tokyo, JP",positive,0.3307,0.8463,textblob
+289,seed_youtube_288_1774390490,Blown away by how fast and reliable the new model update is. 10/10!,youtube,2026-03-24 22:14:50.199677+00,"Berlin, DE",positive,0.3028,0.7694,textblob
+290,seed_youtube_289_1775707075,Just tried server and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-09 03:57:55.950774+00,"Tokyo, JP",positive,0.9155,0.8233,textblob
+291,seed_twitter_290_1774401417,The new issue platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-25 01:16:57.982286+00,"San Francisco, US",positive,0.9293,0.9414,textblob
+292,seed_twitter_291_1773475133,kubernetes support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-03-14 07:58:53.599666+00,"San Francisco, US",positive,0.5926,0.799,bert
+293,seed_youtube_292_1775271650,"Seriously impressed with aws. The UX is clean, fast, and just works.",youtube,2026-04-04 03:00:50.566958+00,"Paris, FR",positive,0.3149,0.8505,ensemble
+294,seed_youtube_293_1775912148,Just installed the new kubernetes version. Will test it over the next few days.,youtube,2026-04-11 12:55:48.490315+00,"Mumbai, IN",neutral,-0.0603,0.6773,bert
+295,seed_twitter_294_1775169117,encrypt support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-04-02 22:31:57.405812+00,"Tokyo, JP",positive,0.7499,0.7658,ensemble
+296,seed_twitter_295_1774790524,Submitted 5 cloud tickets this week. Not a single response.,twitter,2026-03-29 13:22:04.762741+00,"Amsterdam, NL",negative,-0.7622,0.8133,ensemble
+297,seed_twitter_296_1773422256,Our team's productivity shot up 40% after adopting encrypt. Game changer! 💡,twitter,2026-03-13 17:17:36.79863+00,"Amsterdam, NL",positive,0.6924,0.7982,textblob
+298,seed_twitter_297_1773586207,Setting up a neural demo environment. First impressions later.,twitter,2026-03-15 14:50:07.934232+00,"New York, US",neutral,-0.0715,0.8257,ensemble
+299,seed_twitter_298_1774324672,Blown away by how fast and reliable the new broken update is. 10/10!,twitter,2026-03-24 03:57:52.084243+00,"Tokyo, JP",positive,0.3057,0.7345,bert
+300,seed_twitter_299_1773734174,The support UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-03-17 07:56:14.567579+00,"Paris, FR",negative,-0.6963,0.8654,ensemble
+301,seed_youtube_300_1773720760,Our team had a data eval call today. Still deciding.,youtube,2026-03-17 04:12:40.789996+00,"Bangalore, IN",neutral,0.0663,0.6554,ensemble
+302,seed_twitter_301_1775932423,The new ml platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-04-11 18:33:43.386458+00,"Tokyo, JP",positive,0.8232,0.8439,ensemble
+303,seed_twitter_302_1773884380,Blown away by how fast and reliable the new price update is. 10/10!,twitter,2026-03-19 01:39:40.801123+00,,positive,0.3275,0.9191,ensemble
+304,seed_twitter_303_1773839103,This plan outage has cost us thousands. Where is the status page??,twitter,2026-03-18 13:05:03.389666+00,"San Francisco, US",negative,-0.4871,0.8812,bert
+305,seed_twitter_304_1774490964,Blown away by how fast and reliable the new issue update is. 10/10!,twitter,2026-03-26 02:09:24.033433+00,"Bangalore, IN",positive,0.5959,0.7599,textblob
+306,seed_youtube_305_1775027293,This hack outage has cost us thousands. Where is the status page??,youtube,2026-04-01 07:08:13.831709+00,"Sydney, AU",negative,-0.9096,0.9228,textblob
+307,seed_twitter_306_1775736985,"server has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-04-09 12:16:25.228823+00,"London, UK",negative,-0.6105,0.8109,textblob
+308,seed_twitter_307_1774765525,Huge shoutout to the refund team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-29 06:25:25.145655+00,"Singapore, SG",positive,0.5291,0.985,textblob
+309,seed_youtube_308_1775723049,"Seriously impressed with cost. The UX is clean, fast, and just works.",youtube,2026-04-09 08:24:09.029738+00,"Toronto, CA",positive,0.5305,0.7984,ensemble
+310,seed_youtube_309_1774573273,Cancelled my ticket subscription. The quality has dropped so much.,youtube,2026-03-27 01:01:13.553758+00,"London, UK",negative,-0.809,0.8511,bert
+311,seed_youtube_310_1774958100,Super happy with our decision to move to deploy. Zero regrets.,youtube,2026-03-31 11:55:00.529312+00,"Amsterdam, NL",positive,0.2896,0.8643,bert
+312,seed_youtube_311_1775286193,Finally a threat solution that actually works – saving me hours every day 🎉,youtube,2026-04-04 07:03:13.138223+00,"Sydney, AU",positive,0.2523,0.7433,textblob
+313,seed_youtube_312_1774235164,Huge shoutout to the issue team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-03-23 03:06:04.714247+00,"New York, US",positive,0.8148,0.723,ensemble
+314,seed_youtube_313_1775780189,This model outage has cost us thousands. Where is the status page??,youtube,2026-04-10 00:16:29.866134+00,,negative,-0.5879,0.7118,ensemble
+315,seed_youtube_314_1773995321,The data conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-03-20 08:28:41.401271+00,"Mumbai, IN",neutral,-0.0624,0.6722,ensemble
+316,seed_twitter_315_1774189580,The server UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-03-22 14:26:20.622113+00,"Bangalore, IN",negative,-0.8923,0.7115,bert
+317,seed_twitter_316_1775332883,The new deep learning platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-04-04 20:01:23.266285+00,"San Francisco, US",positive,0.9369,0.7749,textblob
+318,seed_twitter_317_1775125578,Why is ai so expensive now?! The new pricing is outrageous.,twitter,2026-04-02 10:26:18.938494+00,"Bangalore, IN",negative,-0.6346,0.939,ensemble
+319,seed_twitter_318_1773643482,Anyone here using kubernetes for production workloads? Looking for feedback.,twitter,2026-03-16 06:44:42.505674+00,"Paris, FR",neutral,0.0012,0.6631,bert
+320,seed_twitter_319_1775269841,Comparing neural vs alternatives. Both seem to have trade-offs.,twitter,2026-04-04 02:30:41.660401+00,"New York, US",neutral,-0.0461,0.7259,textblob
+321,seed_youtube_320_1773888997,The latest encrypt update broke my entire pipeline. Unacceptable!,youtube,2026-03-19 02:56:37.582837+00,"London, UK",negative,-0.2571,0.7128,textblob
+322,seed_twitter_321_1773959480,Been waiting 3 days for security support to reply. Absolutely terrible service 😡,twitter,2026-03-19 22:31:20.439468+00,"Tokyo, JP",negative,-0.9048,0.7028,textblob
+323,seed_twitter_322_1775206010,Submitted 5 cheap tickets this week. Not a single response.,twitter,2026-04-03 08:46:50.431095+00,"Toronto, CA",negative,-0.3413,0.7701,textblob
+324,seed_twitter_323_1774051199,Reviewing the help changelog for the latest release.,twitter,2026-03-20 23:59:59.514333+00,"Mumbai, IN",neutral,0.0079,0.7581,textblob
+325,seed_twitter_324_1774352456,Super happy with our decision to move to aws. Zero regrets.,twitter,2026-03-24 11:40:56.566346+00,,positive,0.858,0.7716,ensemble
+326,seed_youtube_325_1773423992,The hack UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-03-13 17:46:32.020143+00,,negative,-0.7161,0.802,ensemble
+327,seed_twitter_326_1773810978,Blown away by how fast and reliable the new cost update is. 10/10!,twitter,2026-03-18 05:16:18.661028+00,"Singapore, SG",positive,0.6796,0.7278,textblob
+328,seed_twitter_327_1773582341,New encrypt blog post is out. Covers migration steps.,twitter,2026-03-15 13:45:41.420951+00,"San Francisco, US",neutral,-0.0996,0.77,textblob
+329,seed_twitter_328_1775680976,Comparing encrypt vs alternatives. Both seem to have trade-offs.,twitter,2026-04-08 20:42:56.901801+00,"Sydney, AU",neutral,0.0697,0.8469,bert
+330,seed_twitter_329_1773783478,Huge shoutout to the threat team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-17 21:37:58.68198+00,"Berlin, DE",positive,0.5996,0.9537,bert
+331,seed_youtube_330_1774096780,data charged me twice this month and I can't reach anyone. Do better.,youtube,2026-03-21 12:39:40.803367+00,"Mumbai, IN",negative,-0.9433,0.9157,bert
+332,seed_twitter_331_1775015685,"deep learning has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-04-01 03:54:45.171252+00,"Mumbai, IN",negative,-0.4721,0.9028,ensemble
+333,seed_twitter_332_1773936527,Huge shoutout to the gpt team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-19 16:08:47.612645+00,"Toronto, CA",positive,0.5204,0.7788,ensemble
+334,seed_youtube_333_1774458129,The neural demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-25 17:02:09.326845+00,"New York, US",positive,0.6799,0.9609,textblob
+335,seed_youtube_334_1774956387,Submitted 5 broken tickets this week. Not a single response.,youtube,2026-03-31 11:26:27.405302+00,"Sydney, AU",negative,-0.8539,0.7333,textblob
+336,seed_youtube_335_1774882199,The broken platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-03-30 14:49:59.417546+00,"Singapore, SG",negative,-0.5914,0.8016,bert
+337,seed_youtube_336_1775110071,Submitted 5 expensive tickets this week. Not a single response.,youtube,2026-04-02 06:07:51.125615+00,"Toronto, CA",negative,-0.3683,0.7573,textblob
+338,seed_twitter_337_1774348420,Setting up a price demo environment. First impressions later.,twitter,2026-03-24 10:33:40.684327+00,"Singapore, SG",neutral,-0.0975,0.8259,bert
+339,seed_youtube_338_1774198117,Been waiting 3 days for firewall support to reply. Absolutely terrible service 😡,youtube,2026-03-22 16:48:37.587021+00,"Bangalore, IN",negative,-0.7006,0.9456,ensemble
+340,seed_youtube_339_1774357286,"issue has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-24 13:01:26.204843+00,"Tokyo, JP",negative,-0.299,0.7431,bert
+341,seed_youtube_340_1774485705,Super happy with our decision to move to bug. Zero regrets.,youtube,2026-03-26 00:41:45.969633+00,"Amsterdam, NL",positive,0.2982,0.9899,ensemble
+342,seed_youtube_341_1775360253,The cheap UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-04-05 03:37:33.13889+00,"Amsterdam, NL",negative,-0.9019,0.9005,textblob
+343,seed_twitter_342_1773566875,Why is cheap so expensive now?! The new pricing is outrageous.,twitter,2026-03-15 09:27:55.226735+00,"Berlin, DE",negative,-0.3329,0.7509,bert
+344,seed_youtube_343_1774952331,Finally a threat solution that actually works – saving me hours every day 🎉,youtube,2026-03-31 10:18:51.885578+00,"San Francisco, US",positive,0.4868,0.792,bert
+345,seed_twitter_344_1775695767,Finally a threat solution that actually works – saving me hours every day 🎉,twitter,2026-04-09 00:49:27.384719+00,"Paris, FR",positive,0.8411,0.917,ensemble
+346,seed_twitter_345_1774697051,The bug demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-28 11:24:11.798858+00,"Sydney, AU",positive,0.407,0.9112,ensemble
+347,seed_youtube_346_1774770648,Why is data so expensive now?! The new pricing is outrageous.,youtube,2026-03-29 07:50:48.086187+00,"San Francisco, US",negative,-0.9058,0.7012,bert
+348,seed_twitter_347_1773533247,The ticket conference keynote starts in 2 hours. Curious what they'll announce.,twitter,2026-03-15 00:07:27.20212+00,,neutral,0.1342,0.7602,ensemble
+349,seed_youtube_348_1773926449,Blown away by how fast and reliable the new model update is. 10/10!,youtube,2026-03-19 13:20:49.720411+00,"Paris, FR",positive,0.7839,0.7279,ensemble
+350,seed_youtube_349_1775363941,Our team's productivity shot up 40% after adopting value. Game changer! 💡,youtube,2026-04-05 04:39:01.725792+00,"Bangalore, IN",positive,0.6515,0.9276,bert
+351,seed_youtube_350_1774213502,The data platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-03-22 21:05:02.241532+00,"Bangalore, IN",negative,-0.3674,0.7292,bert
+352,seed_youtube_351_1773953049,Super happy with our decision to move to breach. Zero regrets.,youtube,2026-03-19 20:44:09.56071+00,"Paris, FR",positive,0.4101,0.9078,ensemble
+353,seed_youtube_352_1773976805,This aws outage has cost us thousands. Where is the status page??,youtube,2026-03-20 03:20:05.186733+00,"Sydney, AU",negative,-0.5219,0.8529,textblob
+354,seed_youtube_353_1775963904,neural charged me twice this month and I can't reach anyone. Do better.,youtube,2026-04-12 03:18:24.40772+00,"Bangalore, IN",negative,-0.7941,0.875,ensemble
+355,seed_twitter_354_1775753358,The new support platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-04-09 16:49:18.568785+00,"San Francisco, US",positive,0.2752,0.973,textblob
+356,seed_youtube_355_1774671318,Comparing ticket vs alternatives. Both seem to have trade-offs.,youtube,2026-03-28 04:15:18.70036+00,,neutral,-0.0962,0.6874,ensemble
+357,seed_youtube_356_1775681034,Just tried cheap and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-08 20:43:54.198417+00,"Bangalore, IN",positive,0.4037,0.9602,ensemble
+358,seed_youtube_357_1773392672,Setting up a model demo environment. First impressions later.,youtube,2026-03-13 09:04:32.092877+00,"Toronto, CA",neutral,-0.0634,0.579,textblob
+359,seed_twitter_358_1775347178,Reviewing the ml changelog for the latest release.,twitter,2026-04-04 23:59:38.059255+00,"Mumbai, IN",neutral,0.1438,0.7066,bert
+360,seed_youtube_359_1773526262,The cost demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-03-14 22:11:02.485872+00,"Tokyo, JP",positive,0.9019,0.7858,ensemble
+361,seed_twitter_360_1774624003,Attended the threat webinar. Informative overview of the roadmap.,twitter,2026-03-27 15:06:43.138852+00,"Berlin, DE",neutral,-0.0057,0.7293,bert
+362,seed_youtube_361_1774749761,Reviewing the plan changelog for the latest release.,youtube,2026-03-29 02:02:41.86095+00,,neutral,0.1414,0.6336,ensemble
+363,seed_twitter_362_1773407351,This breach outage has cost us thousands. Where is the status page??,twitter,2026-03-13 13:09:11.302962+00,"Paris, FR",negative,-0.6769,0.7721,textblob
+364,seed_twitter_363_1774927268,The help UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-03-31 03:21:08.295471+00,"Toronto, CA",negative,-0.9264,0.8775,ensemble
+365,seed_youtube_364_1773630873,Been waiting 3 days for price support to reply. Absolutely terrible service 😡,youtube,2026-03-16 03:14:33.488736+00,"Mumbai, IN",negative,-0.3914,0.9106,bert
+366,seed_youtube_365_1773815998,Setting up a ticket demo environment. First impressions later.,youtube,2026-03-18 06:39:58.304834+00,"London, UK",neutral,-0.0029,0.7692,ensemble
+367,seed_twitter_366_1773653440,Attended the cloud webinar. Informative overview of the roadmap.,twitter,2026-03-16 09:30:40.149941+00,,neutral,0.1174,0.7421,bert
+368,seed_twitter_367_1773484101,Just installed the new cheap version. Will test it over the next few days.,twitter,2026-03-14 10:28:21.086943+00,"Singapore, SG",neutral,-0.1087,0.8485,bert
+369,seed_youtube_368_1774317700,Comparing cost vs alternatives. Both seem to have trade-offs.,youtube,2026-03-24 02:01:40.175904+00,"New York, US",neutral,0.0071,0.5637,textblob
+370,seed_twitter_369_1773983505,Submitted 5 firewall tickets this week. Not a single response.,twitter,2026-03-20 05:11:45.475023+00,"Amsterdam, NL",negative,-0.7426,0.8156,bert
+371,seed_youtube_370_1775650728,model charged me twice this month and I can't reach anyone. Do better.,youtube,2026-04-08 12:18:48.365848+00,"Berlin, DE",negative,-0.3132,0.8756,ensemble
+372,seed_twitter_371_1774964714,Reviewing the deploy changelog for the latest release.,twitter,2026-03-31 13:45:14.33772+00,"Mumbai, IN",neutral,0.1374,0.6101,ensemble
+373,seed_youtube_372_1774512398,The cheap platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-03-26 08:06:38.063577+00,"Singapore, SG",negative,-0.442,0.7911,ensemble
+374,seed_youtube_373_1774824613,Why is server so expensive now?! The new pricing is outrageous.,youtube,2026-03-29 22:50:13.516945+00,"San Francisco, US",negative,-0.7317,0.8664,ensemble
+375,seed_youtube_374_1774647795,The broken conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-03-27 21:43:15.335374+00,,neutral,0.0457,0.8399,bert
+376,seed_youtube_375_1774008215,The azure platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-03-20 12:03:35.440654+00,"San Francisco, US",negative,-0.9354,0.7143,bert
+377,seed_youtube_376_1774298157,Just tried deep learning and wow – completely changed my workflow. Would highly recommend!,youtube,2026-03-23 20:35:57.457235+00,"Tokyo, JP",positive,0.3275,0.8375,textblob
+378,seed_youtube_377_1773760045,Super happy with our decision to move to azure. Zero regrets.,youtube,2026-03-17 15:07:25.397394+00,,positive,0.847,0.9697,bert
+379,seed_youtube_378_1775787759,New plan blog post is out. Covers migration steps.,youtube,2026-04-10 02:22:39.78533+00,"Bangalore, IN",neutral,-0.0935,0.7175,ensemble
+380,seed_twitter_379_1774532384,Just tried docker and wow – completely changed my workflow. Would highly recommend!,twitter,2026-03-26 13:39:44.318932+00,"Sydney, AU",positive,0.7456,0.9186,ensemble
+381,seed_twitter_380_1775243637,The ai demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-04-03 19:13:57.422632+00,"Singapore, SG",positive,0.6992,0.982,bert
+382,seed_twitter_381_1774570502,The new hack platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-27 00:15:02.190678+00,"New York, US",positive,0.637,0.9556,ensemble
+383,seed_youtube_382_1775292251,Reviewing the server changelog for the latest release.,youtube,2026-04-04 08:44:11.296064+00,"Paris, FR",neutral,0.1102,0.66,ensemble
+384,seed_twitter_383_1775897351,The latest azure update broke my entire pipeline. Unacceptable!,twitter,2026-04-11 08:49:11.244022+00,"London, UK",negative,-0.8887,0.803,bert
+385,seed_youtube_384_1775233083,Cancelled my deploy subscription. The quality has dropped so much.,youtube,2026-04-03 16:18:03.62373+00,"Tokyo, JP",negative,-0.6586,0.7281,ensemble
+386,seed_twitter_385_1774019436,The new encrypt platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-20 15:10:36.459934+00,,positive,0.3001,0.7911,textblob
+387,seed_youtube_386_1774437359,Huge shoutout to the ml team – your product is flawless ⭐⭐⭐⭐⭐,youtube,2026-03-25 11:15:59.304364+00,"Sydney, AU",positive,0.5243,0.9573,ensemble
+388,seed_twitter_387_1774307919,Reviewing the expensive changelog for the latest release.,twitter,2026-03-23 23:18:39.988474+00,"Bangalore, IN",neutral,-0.0097,0.8006,textblob
+389,seed_twitter_388_1775963601,Blown away by how fast and reliable the new encrypt update is. 10/10!,twitter,2026-04-12 03:13:21.374181+00,"Amsterdam, NL",positive,0.5009,0.7787,textblob
+390,seed_youtube_389_1774947632,Been waiting 3 days for expensive support to reply. Absolutely terrible service 😡,youtube,2026-03-31 09:00:32.402139+00,"Bangalore, IN",negative,-0.2692,0.7502,ensemble
+391,seed_twitter_390_1774957500,Submitted 5 gpt tickets this week. Not a single response.,twitter,2026-03-31 11:45:00.36712+00,"New York, US",negative,-0.9288,0.8428,bert
+392,seed_twitter_391_1775282914,ai support team resolved my issue in under 10 min. Stellar experience!,twitter,2026-04-04 06:08:34.527363+00,"Sydney, AU",positive,0.6461,0.7779,bert
+393,seed_youtube_392_1775916672,"Seriously impressed with subscription. The UX is clean, fast, and just works.",youtube,2026-04-11 14:11:12.654128+00,"Bangalore, IN",positive,0.633,0.987,ensemble
+394,seed_twitter_393_1775134376,Why is subscription so expensive now?! The new pricing is outrageous.,twitter,2026-04-02 12:52:56.733351+00,"New York, US",negative,-0.6786,0.7786,ensemble
+395,seed_youtube_394_1775662612,Cancelled my gpt subscription. The quality has dropped so much.,youtube,2026-04-08 15:36:52.191628+00,"Singapore, SG",negative,-0.8355,0.7897,textblob
+396,seed_twitter_395_1774771167,Submitted 5 data tickets this week. Not a single response.,twitter,2026-03-29 07:59:27.09408+00,,negative,-0.7444,0.7023,bert
+397,seed_twitter_396_1774548295,The security conference keynote starts in 2 hours. Curious what they'll announce.,twitter,2026-03-26 18:04:55.793508+00,"Tokyo, JP",neutral,0.145,0.6997,textblob
+398,seed_twitter_397_1775479542,Super happy with our decision to move to threat. Zero regrets.,twitter,2026-04-06 12:45:42.961993+00,"New York, US",positive,0.2807,0.8534,textblob
+399,seed_twitter_398_1773573066,Huge shoutout to the ai team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-15 11:11:06.960785+00,,positive,0.3203,0.9308,ensemble
+400,seed_twitter_399_1775158861,The issue UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-04-02 19:41:01.126859+00,"Bangalore, IN",negative,-0.5729,0.739,ensemble
+401,seed_youtube_400_1773978933,Attended the value webinar. Informative overview of the roadmap.,youtube,2026-03-20 03:55:33.48933+00,"Singapore, SG",neutral,0.076,0.6615,textblob
+402,seed_twitter_401_1775862252,Super happy with our decision to move to issue. Zero regrets.,twitter,2026-04-10 23:04:12.968576+00,,positive,0.3009,0.7983,bert
+403,seed_youtube_402_1773670990,Super happy with our decision to move to docker. Zero regrets.,youtube,2026-03-16 14:23:10.941183+00,,positive,0.2624,0.7952,textblob
+404,seed_youtube_403_1773457549,The ai conference keynote starts in 2 hours. Curious what they'll announce.,youtube,2026-03-14 03:05:49.504449+00,"Amsterdam, NL",neutral,-0.0946,0.6549,ensemble
+405,seed_twitter_404_1775229274,Reading the ai docs. Seems fairly comprehensive so far.,twitter,2026-04-03 15:14:34.103111+00,"London, UK",neutral,0.1282,0.6019,ensemble
+406,seed_youtube_405_1775607881,Our team's productivity shot up 40% after adopting broken. Game changer! 💡,youtube,2026-04-08 00:24:41.661682+00,"Paris, FR",positive,0.6171,0.9706,textblob
+407,seed_youtube_406_1775204948,Just tried cheap and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-03 08:29:08.586306+00,"London, UK",positive,0.2708,0.811,bert
+408,seed_youtube_407_1775827218,Super happy with our decision to move to llm. Zero regrets.,youtube,2026-04-10 13:20:18.953239+00,"Berlin, DE",positive,0.3231,0.8309,textblob
+409,seed_twitter_408_1773933078,Huge shoutout to the bug team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-19 15:11:18.405795+00,,positive,0.5985,0.9229,ensemble
+410,seed_twitter_409_1774412532,Super happy with our decision to move to plan. Zero regrets.,twitter,2026-03-25 04:22:12.798156+00,"Amsterdam, NL",positive,0.4814,0.8296,bert
+411,seed_twitter_410_1775326551,Comparing ml vs alternatives. Both seem to have trade-offs.,twitter,2026-04-04 18:15:51.713625+00,"Toronto, CA",neutral,0.1132,0.7961,bert
+412,seed_twitter_411_1774332137,Cancelled my cloud subscription. The quality has dropped so much.,twitter,2026-03-24 06:02:17.114952+00,,negative,-0.3568,0.7508,bert
+413,seed_twitter_412_1774600207,Why is vulnerability so expensive now?! The new pricing is outrageous.,twitter,2026-03-27 08:30:07.054622+00,"Tokyo, JP",negative,-0.5417,0.9866,textblob
+414,seed_twitter_413_1774492310,Huge shoutout to the server team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-26 02:31:50.996552+00,"Mumbai, IN",positive,0.9051,0.8668,ensemble
+415,seed_twitter_414_1774892610,The deploy demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-03-30 17:43:30.269013+00,,positive,0.8913,0.8505,bert
+416,seed_youtube_415_1774385736,Just installed the new plan version. Will test it over the next few days.,youtube,2026-03-24 20:55:36.898189+00,,neutral,-0.0699,0.8152,textblob
+417,seed_twitter_416_1773523527,Setting up a ticket demo environment. First impressions later.,twitter,2026-03-14 21:25:27.705423+00,"Tokyo, JP",neutral,0.079,0.5994,ensemble
+418,seed_youtube_417_1774621481,Finally a aws solution that actually works – saving me hours every day 🎉,youtube,2026-03-27 14:24:41.582499+00,"Sydney, AU",positive,0.5173,0.7558,bert
+419,seed_youtube_418_1773629818,The latest broken update broke my entire pipeline. Unacceptable!,youtube,2026-03-16 02:56:58.243611+00,,negative,-0.8153,0.838,ensemble
+420,seed_twitter_419_1775587306,Super happy with our decision to move to fix. Zero regrets.,twitter,2026-04-07 18:41:46.465878+00,"Berlin, DE",positive,0.6832,0.9512,bert
+421,seed_twitter_420_1773492389,Finally a cost solution that actually works – saving me hours every day 🎉,twitter,2026-03-14 12:46:29.34919+00,,positive,0.339,0.7608,textblob
+422,seed_twitter_421_1775628944,The model demo blew my mind. Rolling this out company-wide ASAP.,twitter,2026-04-08 06:15:44.507936+00,"New York, US",positive,0.4289,0.8678,ensemble
+423,seed_youtube_422_1775646224,"Seriously impressed with expensive. The UX is clean, fast, and just works.",youtube,2026-04-08 11:03:44.671494+00,"New York, US",positive,0.3541,0.9485,bert
+424,seed_twitter_423_1773741378,"Seriously impressed with model. The UX is clean, fast, and just works.",twitter,2026-03-17 09:56:18.443075+00,"Singapore, SG",positive,0.3391,0.7528,ensemble
+425,seed_twitter_424_1775455471,Reading the threat docs. Seems fairly comprehensive so far.,twitter,2026-04-06 06:04:31.298493+00,"Mumbai, IN",neutral,-0.0269,0.6561,bert
+426,seed_twitter_425_1774366488,Why is ticket so expensive now?! The new pricing is outrageous.,twitter,2026-03-24 15:34:48.944785+00,"New York, US",negative,-0.8092,0.8482,ensemble
+427,seed_youtube_426_1775406834,Just tried refund and wow – completely changed my workflow. Would highly recommend!,youtube,2026-04-05 16:33:54.708605+00,"Sydney, AU",positive,0.2802,0.7694,ensemble
+428,seed_twitter_427_1773932864,Huge shoutout to the refund team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-19 15:07:44.704695+00,"Bangalore, IN",positive,0.4324,0.7581,textblob
+429,seed_youtube_428_1775192218,Super happy with our decision to move to ticket. Zero regrets.,youtube,2026-04-03 04:56:58.641257+00,"London, UK",positive,0.515,0.9197,bert
+430,seed_twitter_429_1775416459,Just tried firewall and wow – completely changed my workflow. Would highly recommend!,twitter,2026-04-05 19:14:19.278397+00,"Paris, FR",positive,0.5329,0.8131,textblob
+431,seed_youtube_430_1774555406,The new subscription platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-26 20:03:26.897394+00,,positive,0.8271,0.8899,textblob
+432,seed_youtube_431_1773676481,threat support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-16 15:54:41.25156+00,"Amsterdam, NL",positive,0.3236,0.8867,bert
+433,seed_twitter_432_1773841841,Our team had a value eval call today. Still deciding.,twitter,2026-03-18 13:50:41.529825+00,"New York, US",neutral,0.0276,0.7168,bert
+434,seed_youtube_433_1775421842,The issue platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-04-05 20:44:02.143134+00,"Berlin, DE",negative,-0.5415,0.8572,bert
+435,seed_twitter_434_1773576489,Huge shoutout to the refund team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-15 12:08:09.453754+00,"Singapore, SG",positive,0.4273,0.9396,textblob
+436,seed_youtube_435_1774353728,Finally a price solution that actually works – saving me hours every day 🎉,youtube,2026-03-24 12:02:08.985539+00,"New York, US",positive,0.4555,0.8012,ensemble
+437,seed_youtube_436_1774136635,Attended the firewall webinar. Informative overview of the roadmap.,youtube,2026-03-21 23:43:55.682388+00,"San Francisco, US",neutral,-0.1119,0.6224,bert
+438,seed_youtube_437_1775083306,model support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-04-01 22:41:46.760796+00,"New York, US",positive,0.6384,0.8218,textblob
+439,seed_youtube_438_1774084178,subscription support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-03-21 09:09:38.124712+00,"Berlin, DE",positive,0.6478,0.8691,bert
+440,seed_youtube_439_1774122828,hack charged me twice this month and I can't reach anyone. Do better.,youtube,2026-03-21 19:53:48.075508+00,"Amsterdam, NL",negative,-0.2562,0.7219,ensemble
+441,seed_youtube_440_1774641730,Super happy with our decision to move to refund. Zero regrets.,youtube,2026-03-27 20:02:10.932725+00,"Toronto, CA",positive,0.6433,0.9351,bert
+442,seed_twitter_441_1775652691,Setting up a ml demo environment. First impressions later.,twitter,2026-04-08 12:51:31.042191+00,,neutral,-0.076,0.815,bert
+443,seed_twitter_442_1774703618,The new support platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-28 13:13:38.818449+00,"New York, US",positive,0.5057,0.7398,bert
+444,seed_twitter_443_1775799439,Submitted 5 gpt tickets this week. Not a single response.,twitter,2026-04-10 05:37:19.545419+00,"Paris, FR",negative,-0.5349,0.7773,textblob
+445,seed_youtube_444_1775896390,"Seriously impressed with issue. The UX is clean, fast, and just works.",youtube,2026-04-11 08:33:10.958949+00,"Tokyo, JP",positive,0.7368,0.8161,textblob
+446,seed_twitter_445_1773791475,The fix platform keeps crashing. Switching to a competitor ASAP.,twitter,2026-03-17 23:51:15.648177+00,"Mumbai, IN",negative,-0.713,0.8873,bert
+447,seed_youtube_446_1773509509,Finally a neural solution that actually works – saving me hours every day 🎉,youtube,2026-03-14 17:31:49.855314+00,"San Francisco, US",positive,0.677,0.7834,ensemble
+448,seed_youtube_447_1775266724,The bug demo blew my mind. Rolling this out company-wide ASAP.,youtube,2026-04-04 01:38:44.409712+00,"Amsterdam, NL",positive,0.7381,0.9127,textblob
+449,seed_youtube_448_1773462281,Setting up a llm demo environment. First impressions later.,youtube,2026-03-14 04:24:41.064341+00,"Amsterdam, NL",neutral,0.0541,0.7044,ensemble
+450,seed_youtube_449_1773770945,Why is neural so expensive now?! The new pricing is outrageous.,youtube,2026-03-17 18:09:05.081581+00,"Sydney, AU",negative,-0.9262,0.9464,textblob
+451,seed_twitter_450_1774753043,The new hack platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-29 02:57:23.175217+00,,positive,0.4183,0.7328,bert
+452,seed_youtube_451_1775050808,Super happy with our decision to move to cloud. Zero regrets.,youtube,2026-04-01 13:40:08.77677+00,,positive,0.2856,0.8562,textblob
+453,seed_twitter_452_1775732237,The hack UI is confusing and unintuitive. Needs a complete redesign.,twitter,2026-04-09 10:57:17.04388+00,,negative,-0.6046,0.7654,textblob
+454,seed_youtube_453_1773438516,New llm blog post is out. Covers migration steps.,youtube,2026-03-13 21:48:36.082621+00,,neutral,0.0691,0.7907,textblob
+455,seed_twitter_454_1775831802,Blown away by how fast and reliable the new deep learning update is. 10/10!,twitter,2026-04-10 14:36:42.484322+00,"New York, US",positive,0.4881,0.7575,textblob
+456,seed_youtube_455_1774758258,Super happy with our decision to move to deploy. Zero regrets.,youtube,2026-03-29 04:24:18.015822+00,"Tokyo, JP",positive,0.8524,0.7499,textblob
+457,seed_youtube_456_1773931033,deploy charged me twice this month and I can't reach anyone. Do better.,youtube,2026-03-19 14:37:13.461494+00,"Tokyo, JP",negative,-0.4624,0.7909,textblob
+458,seed_youtube_457_1775138721,The threat platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-04-02 14:05:21.690915+00,"Sydney, AU",negative,-0.3191,0.823,ensemble
+459,seed_youtube_458_1775962106,Cancelled my azure subscription. The quality has dropped so much.,youtube,2026-04-12 02:48:26.020295+00,"Tokyo, JP",negative,-0.7171,0.8207,textblob
+460,seed_twitter_459_1774533179,Submitted 5 kubernetes tickets this week. Not a single response.,twitter,2026-03-26 13:52:59.591947+00,,negative,-0.3915,0.7532,textblob
+461,seed_youtube_460_1775350197,Submitted 5 help tickets this week. Not a single response.,youtube,2026-04-05 00:49:57.163369+00,,negative,-0.2506,0.7296,ensemble
+462,seed_youtube_461_1775716712,Our team's productivity shot up 40% after adopting issue. Game changer! 💡,youtube,2026-04-09 06:38:32.904466+00,"Paris, FR",positive,0.4767,0.9355,bert
+463,seed_twitter_462_1775408191,Cancelled my price subscription. The quality has dropped so much.,twitter,2026-04-05 16:56:31.171468+00,,negative,-0.6242,0.7636,textblob
+464,seed_twitter_463_1774155320,Our team had a cheap eval call today. Still deciding.,twitter,2026-03-22 04:55:20.826308+00,"New York, US",neutral,-0.1081,0.7477,ensemble
+465,seed_twitter_464_1774453176,Huge shoutout to the cheap team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-25 15:39:36.470508+00,"Amsterdam, NL",positive,0.5643,0.9476,ensemble
+466,seed_youtube_465_1774835937,Blown away by how fast and reliable the new vulnerability update is. 10/10!,youtube,2026-03-30 01:58:57.829323+00,,positive,0.4381,0.9098,bert
+467,seed_youtube_466_1775419089,The plan platform keeps crashing. Switching to a competitor ASAP.,youtube,2026-04-05 19:58:09.110351+00,"Bangalore, IN",negative,-0.6176,0.9773,textblob
+468,seed_youtube_467_1774067646,The new llm platform is absolutely incredible! Best launch I've seen this year 🚀,youtube,2026-03-21 04:34:06.359472+00,"Amsterdam, NL",positive,0.6774,0.828,textblob
+469,seed_twitter_468_1774342258,The new hack platform is absolutely incredible! Best launch I've seen this year 🚀,twitter,2026-03-24 08:50:58.449874+00,,positive,0.5854,0.7496,ensemble
+470,seed_twitter_469_1774680169,Reviewing the hack changelog for the latest release.,twitter,2026-03-28 06:42:49.952793+00,"Paris, FR",neutral,-0.0806,0.7998,bert
+471,seed_twitter_470_1775034431,Why is gpt so expensive now?! The new pricing is outrageous.,twitter,2026-04-01 09:07:11.20507+00,"London, UK",negative,-0.6881,0.8928,textblob
+472,seed_twitter_471_1773921688,The value conference keynote starts in 2 hours. Curious what they'll announce.,twitter,2026-03-19 12:01:28.914474+00,"Bangalore, IN",neutral,0.0237,0.6609,ensemble
+473,seed_twitter_472_1774137864,Reviewing the hack changelog for the latest release.,twitter,2026-03-22 00:04:24.722785+00,"Singapore, SG",neutral,-0.1487,0.6046,textblob
+474,seed_twitter_473_1775924013,The latest expensive update broke my entire pipeline. Unacceptable!,twitter,2026-04-11 16:13:33.143812+00,"London, UK",negative,-0.9386,0.9336,ensemble
+475,seed_youtube_474_1775020655,docker support team resolved my issue in under 10 min. Stellar experience!,youtube,2026-04-01 05:17:35.583673+00,"Singapore, SG",positive,0.5672,0.7911,ensemble
+476,seed_youtube_475_1775677032,The deep learning UI is confusing and unintuitive. Needs a complete redesign.,youtube,2026-04-08 19:37:12.955795+00,,negative,-0.5367,0.8996,ensemble
+477,seed_youtube_476_1774536376,Finally a plan solution that actually works – saving me hours every day 🎉,youtube,2026-03-26 14:46:16.847364+00,"Paris, FR",positive,0.3648,0.9801,ensemble
+478,seed_youtube_477_1775717051,Submitted 5 refund tickets this week. Not a single response.,youtube,2026-04-09 06:44:11.334514+00,"Amsterdam, NL",negative,-0.8335,0.719,textblob
+479,seed_youtube_478_1775309363,Blown away by how fast and reliable the new hack update is. 10/10!,youtube,2026-04-04 13:29:23.362249+00,"Toronto, CA",positive,0.2918,0.9461,bert
+480,seed_twitter_479_1774060533,Super happy with our decision to move to cheap. Zero regrets.,twitter,2026-03-21 02:35:33.245523+00,"London, UK",positive,0.3409,0.9151,ensemble
+481,seed_twitter_480_1774447324,Reviewing the deploy changelog for the latest release.,twitter,2026-03-25 14:02:04.974797+00,"London, UK",neutral,0.0596,0.663,ensemble
+482,seed_twitter_481_1773972390,Huge shoutout to the azure team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-03-20 02:06:30.230157+00,"Amsterdam, NL",positive,0.3997,0.8153,ensemble
+483,seed_youtube_482_1774055295,Super happy with our decision to move to firewall. Zero regrets.,youtube,2026-03-21 01:08:15.998194+00,,positive,0.3777,0.7228,ensemble
+484,seed_twitter_483_1774453047,Just installed the new aws version. Will test it over the next few days.,twitter,2026-03-25 15:37:27.313963+00,"Tokyo, JP",neutral,-0.0324,0.6166,bert
+485,seed_twitter_484_1775758625,Super happy with our decision to move to server. Zero regrets.,twitter,2026-04-09 18:17:05.027181+00,"Tokyo, JP",positive,0.5093,0.9732,ensemble
+486,seed_twitter_485_1774291601,Cancelled my llm subscription. The quality has dropped so much.,twitter,2026-03-23 18:46:41.44785+00,"Paris, FR",negative,-0.7737,0.7067,bert
+487,seed_youtube_486_1775609912,The latest ml update broke my entire pipeline. Unacceptable!,youtube,2026-04-08 00:58:32.134913+00,"Bangalore, IN",negative,-0.49,0.8418,ensemble
+488,seed_youtube_487_1773475882,Comparing kubernetes vs alternatives. Both seem to have trade-offs.,youtube,2026-03-14 08:11:22.742739+00,"New York, US",neutral,0.0971,0.594,textblob
+489,seed_youtube_488_1775094147,hack charged me twice this month and I can't reach anyone. Do better.,youtube,2026-04-02 01:42:27.92686+00,"San Francisco, US",negative,-0.4929,0.7693,textblob
+490,seed_twitter_489_1773623801,threat charged me twice this month and I can't reach anyone. Do better.,twitter,2026-03-16 01:16:41.542954+00,"Paris, FR",negative,-0.8795,0.9454,textblob
+491,seed_twitter_490_1774021576,Our team had a gpt eval call today. Still deciding.,twitter,2026-03-20 15:46:16.95875+00,"San Francisco, US",neutral,-0.0303,0.7965,textblob
+492,seed_twitter_491_1775401669,"threat has gone downhill fast. It used to be great, now it's a buggy mess.",twitter,2026-04-05 15:07:49.29303+00,,negative,-0.7371,0.8346,textblob
+493,seed_youtube_492_1774401105,Comparing expensive vs alternatives. Both seem to have trade-offs.,youtube,2026-03-25 01:11:45.752546+00,"Amsterdam, NL",neutral,0.0617,0.7096,bert
+494,seed_twitter_493_1775703806,Huge shoutout to the fix team – your product is flawless ⭐⭐⭐⭐⭐,twitter,2026-04-09 03:03:26.085626+00,,positive,0.514,0.7598,bert
+495,seed_twitter_494_1774481825,Setting up a plan demo environment. First impressions later.,twitter,2026-03-25 23:37:05.73522+00,,neutral,-0.1312,0.839,ensemble
+496,seed_youtube_495_1774285386,"Seriously impressed with cloud. The UX is clean, fast, and just works.",youtube,2026-03-23 17:03:06.374009+00,"Berlin, DE",positive,0.7211,0.8017,ensemble
+497,seed_youtube_496_1774925199,"aws has gone downhill fast. It used to be great, now it's a buggy mess.",youtube,2026-03-31 02:46:39.614375+00,"Berlin, DE",negative,-0.8045,0.9166,textblob
+498,seed_twitter_497_1774274390,Setting up a llm demo environment. First impressions later.,twitter,2026-03-23 13:59:50.638908+00,,neutral,-0.1419,0.5757,bert
+499,seed_youtube_498_1774372747,Finally a bug solution that actually works – saving me hours every day 🎉,youtube,2026-03-24 17:19:07.326843+00,"Paris, FR",positive,0.4178,0.9374,textblob
+500,seed_twitter_499_1775291411,Cancelled my server subscription. The quality has dropped so much.,twitter,2026-04-04 08:30:11.415483+00,,negative,-0.3279,0.8751,ensemble

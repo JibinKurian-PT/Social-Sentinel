@@ -1,0 +1,31 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONPATH=/app
+ENV HF_HOME=/app/.cache/huggingface
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements and install
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Download NLTK data ahead of time
+RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger'); nltk.download('punkt_tab');"
+RUN pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Pre-download huggingface model to avoid downloading on every worker start
+COPY src/config.py src/
+RUN python -c "from transformers import AutoTokenizer, AutoModelForSequenceClassification; model_name='cardiffnlp/twitter-roberta-base-sentiment-latest'; AutoTokenizer.from_pretrained(model_name); AutoModelForSequenceClassification.from_pretrained(model_name);"
+
+# Copy source
+COPY src/ src/
+
+# Run worker
+CMD ["celery", "-A", "src.worker.main.celery_app", "worker", "--loglevel=info"]

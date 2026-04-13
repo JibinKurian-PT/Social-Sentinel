@@ -1,0 +1,110 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: sentiment_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sentiment_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-SecurePassword123!}
+      POSTGRES_DB: ${POSTGRES_DB:-sentiment_prod}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sentiment_user} -d ${POSTGRES_DB:-sentiment_prod}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongodb:
+    image: mongo:6.0
+    container_name: sentiment_mongo
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: [ "CMD", "mongosh", "--eval", "db.adminCommand('ping')" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: sentiment_redis
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.app
+    container_name: sentiment_api
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file: .env
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./src:/app/src
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/api/v1/health" ]
+      interval: 30s
+      timeout: 30s
+      retries: 10
+      start_period: 60s
+
+  worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.app
+    container_name: sentiment_worker
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    env_file: .env
+    command: celery -A src.worker.main.celery_app worker --loglevel=info
+    volumes:
+      - ./src:/app/src
+
+  celery-beat:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.app
+    container_name: sentiment_celery_beat
+    depends_on:
+      redis:
+        condition: service_healthy
+    env_file: .env
+    command: celery -A src.worker.main.celery_app beat --loglevel=info
+    volumes:
+      - ./src:/app/src
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.dashboard
+    container_name: sentiment_dashboard
+    depends_on:
+      api:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      - API_URL=http://api:8000/api/v1
+      - API_KEY=${API_KEY}
+    ports:
+      - "${DASHBOARD_PORT:-8501}:8501"
+    volumes:
+      - ./src:/app/src
+
+volumes:
+  postgres_data:
+  mongo_data:

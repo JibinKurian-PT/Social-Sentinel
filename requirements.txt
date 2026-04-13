@@ -1,0 +1,59 @@
+# Core & Web
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+websockets==12.0
+
+# Task Queue & Async
+celery==5.3.6
+redis==5.0.3
+
+# PostgreSQL Database
+sqlalchemy==2.0.29
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# MongoDB
+motor==3.4.0
+pymongo>=4.5,<4.9
+
+# API Clients
+tweepy==4.14.0
+google-api-python-client==2.118.0
+
+# Dashboard
+streamlit==1.33.0
+plotly==5.20.0
+pandas==2.2.1
+folium==0.16.0
+streamlit-folium==0.19.0
+
+# NLP & ML
+transformers==4.39.3
+torch==2.2.2
+textblob==0.18.0.post0
+gensim==4.3.2
+scikit-learn==1.4.2
+numpy==1.26.4
+scipy<1.13.0
+nltk==3.8.1
+emoji==2.11.0
+spacy==3.7.4
+
+# Geo Data
+geopy==2.4.1
+
+# Dashboard Logic
+tenacity==8.2.3
+
+# Observability
+loguru==0.7.2
+prometheus-client==0.20.0
+
+# Testing
+pytest==8.1.1
+pytest-asyncio==0.23.6
+httpx==0.27.0
