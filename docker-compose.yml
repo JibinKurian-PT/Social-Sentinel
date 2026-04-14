@@ -53,6 +53,8 @@ services:
       - "${API_PORT:-8000}:8000"
     volumes:
       - ./src:/app/src
+      - ./data:/app/data
+      - ./static:/app/static
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:8000/api/v1/health" ]
       interval: 30s
@@ -71,9 +73,11 @@ services:
       postgres:
         condition: service_healthy
     env_file: .env
-    command: celery -A src.worker.main.celery_app worker --loglevel=info
+    command: celery -A src.tasks.celery_app worker --loglevel=info
     volumes:
       - ./src:/app/src
+      - ./data:/app/data
+      - ./static:/app/static
 
   celery-beat:
     build:
@@ -84,9 +88,11 @@ services:
       redis:
         condition: service_healthy
     env_file: .env
-    command: celery -A src.worker.main.celery_app beat --loglevel=info
+    command: celery -A src.tasks.celery_app beat --loglevel=info
     volumes:
       - ./src:/app/src
+      - ./data:/app/data
+      - ./static:/app/static
 
   dashboard:
     build:
@@ -104,6 +110,8 @@ services:
       - "${DASHBOARD_PORT:-8501}:8501"
     volumes:
       - ./src:/app/src
+      - ./data:/app/data
+      - ./static:/app/static
 
 volumes:
   postgres_data:

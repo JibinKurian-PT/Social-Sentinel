@@ -1,0 +1,91 @@
+/* custom_csv_style.css - Professional Styling for CSV Analyzer */
+
+:root {
+    --primary-color: #00CC96;
+    --secondary-color: #636EFA;
+    --bg-gradient: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+    --card-bg: #262730;
+    --text-color: #e0e0e0;
+}
+
+/* Upload Area Styling */
+.stUploader {
+    background: var(--bg-gradient);
+    border: 2px dashed var(--primary-color) !important;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.stUploader:hover {
+    border-color: var(--secondary-color) !important;
+    box-shadow: 0 0 15px rgba(99, 110, 250, 0.3);
+}
+
+/* Progress Bar Animation */
+.stProgress > div > div > div > div {
+    background-image: linear-gradient(
+        45deg, 
+        rgba(255, 255, 255, 0.15) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, 0.15) 50%, 
+        rgba(255, 255, 255, 0.15) 75%, 
+        transparent 75%, 
+        transparent
+    );
+    background-size: 1rem 1rem;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    from { background-position: 1rem 0; }
+    to { background-position: 0 0; }
+}
+
+/* Card Styling */
+.sentiment-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.sentiment-card.negative {
+    border-left-color: #EF553B;
+}
+
+.sentiment-card.neutral {
+    border-left-color: #AB63FA;
+}
+
+/* Table Design */
+.stDataFrame {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Button Hover Effects */
+button[kind="primary"] {
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+button[kind="primary"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 204, 150, 0.4);
+}
+
+/* Loading Spinner Customization */
+.stSpinner > div {
+    border-top-color: var(--primary-color) !important;
+}
+
+/* Tooltips */
+.css-1fv8s86 {
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+}

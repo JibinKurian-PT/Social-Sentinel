@@ -1,7 +1,8 @@
 """
 Authentication Middleware for API Key verification.
 """
-from fastapi import Request
+from fastapi import Request, HTTPException, Security, Depends
+from fastapi.security.api_key import APIKeyHeader, APIKeyQuery
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from src.config import settings
@@ -35,3 +36,24 @@ class APIKeyMiddleware(BaseHTTPMiddleware):
             )
             
         return await call_next(request)
+
+API_KEY_NAME = "X-API-Key"
+api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+api_key_query = APIKeyQuery(name="api_key", auto_error=False)
+
+async def get_api_key(
+    header_key: str = Security(api_key_header),
+    query_key: str = Security(api_key_query),
+):
+    if not settings.API_KEY_ENABLED:
+        return "disabled"
+        
+    if header_key == settings.API_KEY:
+        return header_key
+    if query_key == settings.API_KEY:
+        return query_key
+        
+    raise HTTPException(
+        status_code=401,
+        detail="Invalid or missing API Key"
+    )

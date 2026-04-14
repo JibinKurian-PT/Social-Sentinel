@@ -27,6 +27,7 @@ RUN python -c "from transformers import AutoTokenizer, AutoModelForSequenceClass
 
 # Copy application code and assets
 COPY src/ src/
+COPY static/ static/
 COPY alembic.ini .
 COPY scripts/ scripts/
 COPY tests/ tests/

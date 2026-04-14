@@ -40,13 +40,20 @@ st.markdown("""
 st.write("")
 st.write("### Quick Navigation")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.info("📈 **Overview**: High-level KPIs and aggregate trends over time.")
     st.info("🧠 **Sentiment**: Deep dive into polarities and confidence margins.")
 with col2:
     st.info("🔍 **Topics**: Discover what users are talking about right now via LDA.")
     st.info("⚡ **Realtime**: Watch the live streaming websocket feed.")
+with col3:
+    st.success("📥 **CSV Analyzer**: Upload your own CSV files for batch sentiment processing.")
+    st.success("📊 **CSV Insights**: Auto-generated dashboard from your uploaded data.")
+
+# Initialize session state for CSV processing
+if "processed_df" not in st.session_state:
+    st.session_state.processed_df = None
 
 # Global Error Boundary fallback
 if "error" in st.session_state:

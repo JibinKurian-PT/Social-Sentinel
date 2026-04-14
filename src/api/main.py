@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from prometheus_client import make_asgi_app # type: ignore
 import logging
 
-from src.api.routers import sentiment, trends, topics, geo, health
+from src.api.routers import sentiment, trends, topics, geo, health, csv_upload
 from src.api.websocket.manager import manager
 from src.api.websocket.handlers import handle_websocket_messages
 from src.api.middleware.auth import APIKeyMiddleware
@@ -65,6 +65,14 @@ app.include_router(trends.router, prefix="/api/v1")
 app.include_router(topics.router, prefix="/api/v1")
 app.include_router(geo.router, prefix="/api/v1")
 app.include_router(health.router, prefix="/api/v1")
+app.include_router(csv_upload.router, prefix="/api/v1")
+
+from fastapi import Body # type: ignore
+@app.post("/api/v1/broadcast", tags=["Internal"])
+async def broadcast_message(message: dict = Body(...)):
+    """Internal endpoint to trigger realtime WebSocket updates from external scripts."""
+    await manager.broadcast(message)
+    return {"status": "broadcast_sent"}
 
 @app.websocket("/ws/live")
 async def websocket_endpoint(websocket: WebSocket):

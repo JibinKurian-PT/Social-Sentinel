@@ -7,7 +7,7 @@ celery_app = Celery(
     "sentiment_tasks",
     broker=settings.CELERY_BROKER_URL,
     backend=settings.CELERY_RESULT_BACKEND,
-    include=["src.tasks.collection_tasks", "src.tasks.nlp_tasks"]
+    include=["src.tasks.collection_tasks", "src.tasks.nlp_tasks", "src.tasks.csv_tasks"]
 )
 
 # Optional configuration
